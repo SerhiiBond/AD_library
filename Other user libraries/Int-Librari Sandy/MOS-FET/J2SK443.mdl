@@ -1,0 +1,24 @@
+* 2SK443 NJF
+.MODEL J2SK443 NJF
++   Vto=-1.382
++   Beta=33.35E-3
++   Lambda=14.44E-3
++   Is=21.52E-12
++   Rd=11.64
++   Rs=11.64
++   Cgd=5.088E-12
++   Cgs=6.2E-12
++   Pb=1
++   Fc=0.5
+*+   Kf=1E-18
+*+   Af=1
+*+   Betatce=-0.5
+*+   Vtotc=-2.5E-3
+*+   M=0.3333
+*+   Isr=215.2E-12
+*+   Nr=2
+*+   N=1
+*+   Xti=3
+*+   Alpha=10E-6
+*+   Vk=100
+.ENDS

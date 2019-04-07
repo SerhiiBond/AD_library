@@ -1,0 +1,3 @@
+.model 2SK170GR NJF(beta=13.7m vto=-0.547 is=-1n cgd= 16.089p cgs=13.91p lambda=20m )
+.model 2SK170BL NJF(beta=28.283m vto=-0.547 is=-1n cgd= 1.119p cgs=11.881p lambda=9.72m )
+.model 2SK170V NJF(beta=47.14m vto=-0.547 is=-1n cgd= 1.119p cgs=11.881p lambda=5.833m )

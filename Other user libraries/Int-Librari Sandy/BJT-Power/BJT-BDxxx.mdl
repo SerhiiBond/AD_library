@@ -1,0 +1,686 @@
+*****************************************************************************
+.model BD135 npn (
++    IS=4.74E-14 VAF=50.0 BF=200 IKF=0.2486 NE=1.1793
++    ISE=1.831E-14 IKR=0.02 ISC=1.00E-08 NC=2 NR=1 BR=5 RC=0.4 CJC=2.50E-11
++    FC=0.5 MJC=0.33 VJC=0.75 CJE=3.00E-11 MJE=0.33 VJE=0.75 TF=5.30E-10
++    ITF=5 VTF=10 XTF=8 RE=0.2 TR=1.06E-07
+*****************************************************************************
+.model BD136 pnp
++    IS=1.52E-13 VAF=50.0 BF=200 IKF=0.2510 NE=1.1236
++    ISE=1.461E-14 IKR=0.02 ISC=1.00E-08 NC=2 NR=1 BR=10 RC=0.5 CJC=5.00E-11
++    FC=0.5 MJC=0.5 VJC=0.75 CJE=4.00E-11 MJE=0.33 VJE=0.75 TF=2.00E-09
++    ITF=5 VTF=5 XTF=10 RE=0.2 TR=4.00E-07)
+*****************************************************************************
+.MODEL BD139C npn
++IS=150e-15 BF=260      VAF=99
++IKF=1.2    ISE=70e-15  NE=1.2      NF=1.0
++RB=5       RC=0.01     RE=0.08
++CJE=293e-12    MJE=0.33    VJE=0.67
++CJC=49e-12 MJC=0.39    VJC=0.52    FC=0.5
++TF=585e-12     XTF=10000   VTF=35      ITF=20
++TR=10e-9   BR=78       IKR=0.14
++EG=1.21    XTB=1.14    XTI=3       NC=1.45
++ISC=19e-12 NR=1.0      VAR=7.5     IRB=0.03
++RBM=0.001  XCJC=0.53   mfg=CA041311
+*****************************************************************************
+.MODEL BD140C pnp
++IS=120e-15 BF=113      VAF=140
++IKF=1.5    ISE=1000e-15    NE=1.5      NF=1
++RB=5       RC=0.01     RE=0.1
++CJE=220e-12    MJE=0.35    VJE=0.7
++CJC=68e-12 MJC=0.35    VJC=0.6     XCJC=0.5    FC=0.5
++TF=320e-12     XTF=10000   VTF=35      ITF=20
++TR=100e-9  BR=25       IKR=0.1
++EG=1.2     XTB=1.5     XTI=3       NC=1.4
++ISC=7e-12  NR=1.0      VAR=8       IRB=0.01    RBM=0.01
++mfg=CA041311
+*.model BD157   ako:NSC_36  NPN()   ; case TO-126
+.MODEL BD157       NPN(Is=321.7f Xti=3 Eg=1.11 Vaf=100 Bf=278.8 Ise=321.7f
++   Ne=1.254 Ikf=.4679 Nk=.7734 Xtb=1.5 Br=1 Isc=27.84n Nc=2.374
++   Ikr=20.67 Rc=1.873 Cjc=22.69p Mjc=.2467 Vjc=.75 Fc=.5
++   Cje=164.2p Mje=.3815 Vje=.75 Tr=6.223u Tf=2.066n Itf=50.26
++   Xtf=284.8K Vtf=2 Rb=.1)
+*****************************************************************************
+*.model BD158   ako:NSC_36  NPN()   ; case TO-126
+.MODEL BD158       NPN(Is=321.7f Xti=3 Eg=1.11 Vaf=100 Bf=278.8 Ise=321.7f
++   Ne=1.254 Ikf=.4679 Nk=.7734 Xtb=1.5 Br=1 Isc=27.84n Nc=2.374
++   Ikr=20.67 Rc=1.873 Cjc=22.69p Mjc=.2467 Vjc=.75 Fc=.5
++   Cje=164.2p Mje=.3815 Vje=.75 Tr=6.223u Tf=2.066n Itf=50.26
++   Xtf=284.8K Vtf=2 Rb=.1)
+*****************************************************************************
+*.model BD159   ako:NSC_36  NPN()   ; case TO-126
+.MODEL BD159       NPN(Is=321.7f Xti=3 Eg=1.11 Vaf=100 Bf=278.8 Ise=321.7f
++   Ne=1.254 Ikf=.4679 Nk=.7734 Xtb=1.5 Br=1 Isc=27.84n Nc=2.374
++   Ikr=20.67 Rc=1.873 Cjc=22.69p Mjc=.2467 Vjc=.75 Fc=.5
++   Cje=164.2p Mje=.3815 Vje=.75 Tr=6.223u Tf=2.066n Itf=50.26
++   Xtf=284.8K Vtf=2 Rb=.1)
+*****************************************************************************
+*.model BD185   ako:NSC_4F  NPN()   ; case TO-126
+.MODEL BD185       NPN(Is=2.447p Xti=3 Eg=1.11 Vaf=100 Bf=208.2 Ise=70.69p
++   Ne=1.565 Ikf=.9743 Nk=.6134 Xtb=1.5 Br=12.59 Isc=11.68n
++   Nc=1.835 Ikr=3.86 Rc=.4685 Cjc=142p Mjc=.4353 Vjc=.75 Fc=.5
++   Cje=188.5p Mje=.4878 Vje=.75 Tr=194.2n Tf=19.85n Itf=164.1
++   Xtf=5.945 Vtf=10 Rb=.1)
+*****************************************************************************
+*.model BD186   ako:NSC_5F  PNP()   ; case TO-126
+.MODEL BD186        PNP(Is=51.23f Xti=3 Eg=1.11 Vaf=100 Bf=434.1 Ise=51.23f Ne=1.22
++   Ikf=.3883 Nk=.5544 Xtb=2.2 Br=55.47 Isc=51.23f Nc=1.205
++   Ikr=10.87 Rc=.3443 Cjc=136.9p Mjc=.3155 Vjc=.75 Fc=.5
++   Cje=179.9p Mje=.4294 Vje=.75 Tr=20.25n Tf=13.05n Itf=6.85
++   Xtf=1.573 Vtf=10 Rb=.1)
+*****************************************************************************
+*.model BD187   ako:NSC_4F  NPN()   ; case TO-126
+.MODEL BD187       NPN(Is=2.447p Xti=3 Eg=1.11 Vaf=100 Bf=208.2 Ise=70.69p
++   Ne=1.565 Ikf=.9743 Nk=.6134 Xtb=1.5 Br=12.59 Isc=11.68n
++   Nc=1.835 Ikr=3.86 Rc=.4685 Cjc=142p Mjc=.4353 Vjc=.75 Fc=.5
++   Cje=188.5p Mje=.4878 Vje=.75 Tr=194.2n Tf=19.85n Itf=164.1
++   Xtf=5.945 Vtf=10 Rb=.1)
+*****************************************************************************
+*.model BD188   ako:NSC_5F  PNP()   ; case TO-126
+.MODEL BD188        PNP(Is=51.23f Xti=3 Eg=1.11 Vaf=100 Bf=434.1 Ise=51.23f Ne=1.22
++   Ikf=.3883 Nk=.5544 Xtb=2.2 Br=55.47 Isc=51.23f Nc=1.205
++   Ikr=10.87 Rc=.3443 Cjc=136.9p Mjc=.3155 Vjc=.75 Fc=.5
++   Cje=179.9p Mje=.4294 Vje=.75 Tr=20.25n Tf=13.05n Itf=6.85
++   Xtf=1.573 Vtf=10 Rb=.1)
+*****************************************************************************
+*.model BD189   ako:NSC_4F  NPN()   ; case TO-126
+.MODEL BD189       NPN(Is=2.447p Xti=3 Eg=1.11 Vaf=100 Bf=208.2 Ise=70.69p
++   Ne=1.565 Ikf=.9743 Nk=.6134 Xtb=1.5 Br=12.59 Isc=11.68n
++   Nc=1.835 Ikr=3.86 Rc=.4685 Cjc=142p Mjc=.4353 Vjc=.75 Fc=.5
++   Cje=188.5p Mje=.4878 Vje=.75 Tr=194.2n Tf=19.85n Itf=164.1
++   Xtf=5.945 Vtf=10 Rb=.1)
+*****************************************************************************
+*.model BD190   ako:NSC_5F  PNP()   ; case TO-126
+.MODEL BD190        PNP(Is=51.23f Xti=3 Eg=1.11 Vaf=100 Bf=434.1 Ise=51.23f Ne=1.22
++   Ikf=.3883 Nk=.5544 Xtb=2.2 Br=55.47 Isc=51.23f Nc=1.205
++   Ikr=10.87 Rc=.3443 Cjc=136.9p Mjc=.3155 Vjc=.75 Fc=.5
++   Cje=179.9p Mje=.4294 Vje=.75 Tr=20.25n Tf=13.05n Itf=6.85
++   Xtf=1.573 Vtf=10 Rb=.1)
+*****************************************************************************
+*.model BD201   ako:NSC_4A  NPN()   ; case TO-220
+.MODEL BD201       NPN(Is=457.5f Xti=3 Eg=1.11 Vaf=50 Bf=156.7 Ise=1.346p Ne=1.34
++   Ikf=3.296 Nk=.5961 Xtb=2.2 Br=7.639 Isc=604.1f Nc=2.168
++   Ikr=8.131m Rc=91.29m Cjc=278.7p Mjc=.385 Vjc=.75 Fc=.5 Cje=433p
++   Mje=.5 Vje=.75 Tr=1.412u Tf=37.34n Itf=35.68 Xtf=1.163 Vtf=10
++   Rb=.1)
+*****************************************************************************
+*.model BD202   ako:NSC_5A  PNP()   ; case TO-220
+.MODEL BD202       PNP(Is=66.19f Xti=3 Eg=1.11 Vaf=100 Bf=137.6 Ise=862.2f
++   Ne=1.481 Ikf=1.642 Nk=.5695 Xtb=2 Br=5.88 Isc=273.5f Nc=1.24
++   Ikr=3.555 Rc=79.39m Cjc=870.4p Mjc=.6481 Vjc=.75 Fc=.5
++   Cje=390.1p Mje=.4343 Vje=.75 Tr=235.4n Tf=23.21n Itf=71.33
++   Xtf=5.982 Vtf=10 Rb=.1)
+*****************************************************************************
+*.model BD203   ako:NSC_4A  NPN()   ; case TO-220
+.MODEL BD203       NPN(Is=457.5f Xti=3 Eg=1.11 Vaf=50 Bf=156.7 Ise=1.346p Ne=1.34
++   Ikf=3.296 Nk=.5961 Xtb=2.2 Br=7.639 Isc=604.1f Nc=2.168
++   Ikr=8.131m Rc=91.29m Cjc=278.7p Mjc=.385 Vjc=.75 Fc=.5 Cje=433p
++   Mje=.5 Vje=.75 Tr=1.412u Tf=37.34n Itf=35.68 Xtf=1.163 Vtf=10
++   Rb=.1)
+*****************************************************************************
+*.model BD204   ako:NSC_5A  PNP()   ; case TO-220
+.MODEL BD204       PNP(Is=66.19f Xti=3 Eg=1.11 Vaf=100 Bf=137.6 Ise=862.2f
++   Ne=1.481 Ikf=1.642 Nk=.5695 Xtb=2 Br=5.88 Isc=273.5f Nc=1.24
++   Ikr=3.555 Rc=79.39m Cjc=870.4p Mjc=.6481 Vjc=.75 Fc=.5
++   Cje=390.1p Mje=.4343 Vje=.75 Tr=235.4n Tf=23.21n Itf=71.33
++   Xtf=5.982 Vtf=10 Rb=.1)
+*****************************************************************************
+*.model BD220   ako:NSC_4F  NPN()   ; case TO-220
+.MODEL BD220       NPN(Is=2.447p Xti=3 Eg=1.11 Vaf=100 Bf=208.2 Ise=70.69p
++   Ne=1.565 Ikf=.9743 Nk=.6134 Xtb=1.5 Br=12.59 Isc=11.68n
++   Nc=1.835 Ikr=3.86 Rc=.4685 Cjc=142p Mjc=.4353 Vjc=.75 Fc=.5
++   Cje=188.5p Mje=.4878 Vje=.75 Tr=194.2n Tf=19.85n Itf=164.1
++   Xtf=5.945 Vtf=10 Rb=.1)
+*****************************************************************************
+*.model BD221   ako:NSC_4F  NPN()   ; case TO-220
+.MODEL BD221       NPN(Is=2.447p Xti=3 Eg=1.11 Vaf=100 Bf=208.2 Ise=70.69p
++   Ne=1.565 Ikf=.9743 Nk=.6134 Xtb=1.5 Br=12.59 Isc=11.68n
++   Nc=1.835 Ikr=3.86 Rc=.4685 Cjc=142p Mjc=.4353 Vjc=.75 Fc=.5
++   Cje=188.5p Mje=.4878 Vje=.75 Tr=194.2n Tf=19.85n Itf=164.1
++   Xtf=5.945 Vtf=10 Rb=.1)
+*****************************************************************************
+*.model BD222   ako:NSC_4F  NPN()   ; case TO-220
+.MODEL BD222       NPN(Is=2.447p Xti=3 Eg=1.11 Vaf=100 Bf=208.2 Ise=70.69p
++   Ne=1.565 Ikf=.9743 Nk=.6134 Xtb=1.5 Br=12.59 Isc=11.68n
++   Nc=1.835 Ikr=3.86 Rc=.4685 Cjc=142p Mjc=.4353 Vjc=.75 Fc=.5
++   Cje=188.5p Mje=.4878 Vje=.75 Tr=194.2n Tf=19.85n Itf=164.1
++   Xtf=5.945 Vtf=10 Rb=.1)
+*****************************************************************************
+*.model BD223   ako:NSC_5F  PNP()   ; case TO-220
+.MODEL BD223        PNP(Is=51.23f Xti=3 Eg=1.11 Vaf=100 Bf=434.1 Ise=51.23f Ne=1.22
++   Ikf=.3883 Nk=.5544 Xtb=2.2 Br=55.47 Isc=51.23f Nc=1.205
++   Ikr=10.87 Rc=.3443 Cjc=136.9p Mjc=.3155 Vjc=.75 Fc=.5
++   Cje=179.9p Mje=.4294 Vje=.75 Tr=20.25n Tf=13.05n Itf=6.85
++   Xtf=1.573 Vtf=10 Rb=.1)
+*****************************************************************************
+*.model BD224   ako:NSC_5F  PNP()   ; case TO-220
+.MODEL BD224        PNP(Is=51.23f Xti=3 Eg=1.11 Vaf=100 Bf=434.1 Ise=51.23f Ne=1.22
++   Ikf=.3883 Nk=.5544 Xtb=2.2 Br=55.47 Isc=51.23f Nc=1.205
++   Ikr=10.87 Rc=.3443 Cjc=136.9p Mjc=.3155 Vjc=.75 Fc=.5
++   Cje=179.9p Mje=.4294 Vje=.75 Tr=20.25n Tf=13.05n Itf=6.85
++   Xtf=1.573 Vtf=10 Rb=.1)
+*****************************************************************************
+*.model BD225   ako:NSC_5F  PNP()   ; case TO-220
+.MODEL BD225        PNP(Is=51.23f Xti=3 Eg=1.11 Vaf=100 Bf=434.1 Ise=51.23f Ne=1.22
++   Ikf=.3883 Nk=.5544 Xtb=2.2 Br=55.47 Isc=51.23f Nc=1.205
++   Ikr=10.87 Rc=.3443 Cjc=136.9p Mjc=.3155 Vjc=.75 Fc=.5
++   Cje=179.9p Mje=.4294 Vje=.75 Tr=20.25n Tf=13.05n Itf=6.85
++   Xtf=1.573 Vtf=10 Rb=.1)
+*****************************************************************************
+*.model BD233   ako:NSC_4F  NPN()   ; case TO-126
+.MODEL BD233       NPN(Is=2.447p Xti=3 Eg=1.11 Vaf=100 Bf=208.2 Ise=70.69p
++   Ne=1.565 Ikf=.9743 Nk=.6134 Xtb=1.5 Br=12.59 Isc=11.68n
++   Nc=1.835 Ikr=3.86 Rc=.4685 Cjc=142p Mjc=.4353 Vjc=.75 Fc=.5
++   Cje=188.5p Mje=.4878 Vje=.75 Tr=194.2n Tf=19.85n Itf=164.1
++   Xtf=5.945 Vtf=10 Rb=.1)
+*****************************************************************************
+*.model BD234   ako:NSC_5F  PNP()   ; case TO-126
+.MODEL BD234        PNP(Is=51.23f Xti=3 Eg=1.11 Vaf=100 Bf=434.1 Ise=51.23f Ne=1.22
++   Ikf=.3883 Nk=.5544 Xtb=2.2 Br=55.47 Isc=51.23f Nc=1.205
++   Ikr=10.87 Rc=.3443 Cjc=136.9p Mjc=.3155 Vjc=.75 Fc=.5
++   Cje=179.9p Mje=.4294 Vje=.75 Tr=20.25n Tf=13.05n Itf=6.85
++   Xtf=1.573 Vtf=10 Rb=.1)
+*****************************************************************************
+*.model BD235   ako:NSC_4F  NPN()   ; case TO-126
+.MODEL BD235       NPN(Is=2.447p Xti=3 Eg=1.11 Vaf=100 Bf=208.2 Ise=70.69p
++   Ne=1.565 Ikf=.9743 Nk=.6134 Xtb=1.5 Br=12.59 Isc=11.68n
++   Nc=1.835 Ikr=3.86 Rc=.4685 Cjc=142p Mjc=.4353 Vjc=.75 Fc=.5
++   Cje=188.5p Mje=.4878 Vje=.75 Tr=194.2n Tf=19.85n Itf=164.1
++   Xtf=5.945 Vtf=10 Rb=.1)
+*****************************************************************************
+*.model BD236   ako:NSC_5F  PNP()   ; case TO-126
+.MODEL BD236        PNP(Is=51.23f Xti=3 Eg=1.11 Vaf=100 Bf=434.1 Ise=51.23f Ne=1.22
++   Ikf=.3883 Nk=.5544 Xtb=2.2 Br=55.47 Isc=51.23f Nc=1.205
++   Ikr=10.87 Rc=.3443 Cjc=136.9p Mjc=.3155 Vjc=.75 Fc=.5
++   Cje=179.9p Mje=.4294 Vje=.75 Tr=20.25n Tf=13.05n Itf=6.85
++   Xtf=1.573 Vtf=10 Rb=.1)
+*****************************************************************************
+*.model BD237   ako:NSC_4F  NPN()   ; case TO-126
+.MODEL BD237       NPN(Is=2.447p Xti=3 Eg=1.11 Vaf=100 Bf=208.2 Ise=70.69p
++   Ne=1.565 Ikf=.9743 Nk=.6134 Xtb=1.5 Br=12.59 Isc=11.68n
++   Nc=1.835 Ikr=3.86 Rc=.4685 Cjc=142p Mjc=.4353 Vjc=.75 Fc=.5
++   Cje=188.5p Mje=.4878 Vje=.75 Tr=194.2n Tf=19.85n Itf=164.1
++   Xtf=5.945 Vtf=10 Rb=.1)
+*****************************************************************************
+*.model BD238   ako:NSC_5F  PNP()   ; case TO-126
+.MODEL BD238        PNP(Is=51.23f Xti=3 Eg=1.11 Vaf=100 Bf=434.1 Ise=51.23f Ne=1.22
++   Ikf=.3883 Nk=.5544 Xtb=2.2 Br=55.47 Isc=51.23f Nc=1.205
++   Ikr=10.87 Rc=.3443 Cjc=136.9p Mjc=.3155 Vjc=.75 Fc=.5
++   Cje=179.9p Mje=.4294 Vje=.75 Tr=20.25n Tf=13.05n Itf=6.85
++   Xtf=1.573 Vtf=10 Rb=.1)
+*****************************************************************************
+*.model BD239   ako:NSC_4F  NPN()   ; case TO-220
+.MODEL BD239       NPN(Is=2.447p Xti=3 Eg=1.11 Vaf=100 Bf=208.2 Ise=70.69p
++   Ne=1.565 Ikf=.9743 Nk=.6134 Xtb=1.5 Br=12.59 Isc=11.68n
++   Nc=1.835 Ikr=3.86 Rc=.4685 Cjc=142p Mjc=.4353 Vjc=.75 Fc=.5
++   Cje=188.5p Mje=.4878 Vje=.75 Tr=194.2n Tf=19.85n Itf=164.1
++   Xtf=5.945 Vtf=10 Rb=.1)
+*****************************************************************************
+*.model BD239A  ako:NSC_4F  NPN()   ; case TO-220
+.MODEL BD239A      NPN(Is=2.447p Xti=3 Eg=1.11 Vaf=100 Bf=208.2 Ise=70.69p
++   Ne=1.565 Ikf=.9743 Nk=.6134 Xtb=1.5 Br=12.59 Isc=11.68n
++   Nc=1.835 Ikr=3.86 Rc=.4685 Cjc=142p Mjc=.4353 Vjc=.75 Fc=.5
++   Cje=188.5p Mje=.4878 Vje=.75 Tr=194.2n Tf=19.85n Itf=164.1
++   Xtf=5.945 Vtf=10 Rb=.1)
+*****************************************************************************
+*.model BD239B  ako:NSC_4F  NPN()   ; case TO-220
+.MODEL BD239B      NPN(Is=2.447p Xti=3 Eg=1.11 Vaf=100 Bf=208.2 Ise=70.69p
++   Ne=1.565 Ikf=.9743 Nk=.6134 Xtb=1.5 Br=12.59 Isc=11.68n
++   Nc=1.835 Ikr=3.86 Rc=.4685 Cjc=142p Mjc=.4353 Vjc=.75 Fc=.5
++   Cje=188.5p Mje=.4878 Vje=.75 Tr=194.2n Tf=19.85n Itf=164.1
++   Xtf=5.945 Vtf=10 Rb=.1)
+*****************************************************************************
+*.model BD239C  ako:NSC_4F  NPN()   ; case TO-220
+.MODEL BD239C      NPN(Is=2.447p Xti=3 Eg=1.11 Vaf=100 Bf=208.2 Ise=70.69p
++   Ne=1.565 Ikf=.9743 Nk=.6134 Xtb=1.5 Br=12.59 Isc=11.68n
++   Nc=1.835 Ikr=3.86 Rc=.4685 Cjc=142p Mjc=.4353 Vjc=.75 Fc=.5
++   Cje=188.5p Mje=.4878 Vje=.75 Tr=194.2n Tf=19.85n Itf=164.1
++   Xtf=5.945 Vtf=10 Rb=.1)
+*****************************************************************************
+*.model BD240   ako:NSC_5F  PNP()   ; case TO-220
+.MODEL BD240        PNP(Is=51.23f Xti=3 Eg=1.11 Vaf=100 Bf=434.1 Ise=51.23f Ne=1.22
++   Ikf=.3883 Nk=.5544 Xtb=2.2 Br=55.47 Isc=51.23f Nc=1.205
++   Ikr=10.87 Rc=.3443 Cjc=136.9p Mjc=.3155 Vjc=.75 Fc=.5
++   Cje=179.9p Mje=.4294 Vje=.75 Tr=20.25n Tf=13.05n Itf=6.85
++   Xtf=1.573 Vtf=10 Rb=.1)
+*****************************************************************************
+*.model BD240A  ako:NSC_5F  PNP()   ; case TO-220
+.MODEL BD240A       PNP(Is=51.23f Xti=3 Eg=1.11 Vaf=100 Bf=434.1 Ise=51.23f Ne=1.22
++   Ikf=.3883 Nk=.5544 Xtb=2.2 Br=55.47 Isc=51.23f Nc=1.205
++   Ikr=10.87 Rc=.3443 Cjc=136.9p Mjc=.3155 Vjc=.75 Fc=.5
++   Cje=179.9p Mje=.4294 Vje=.75 Tr=20.25n Tf=13.05n Itf=6.85
++   Xtf=1.573 Vtf=10 Rb=.1)
+*****************************************************************************
+*.model BD240B  ako:NSC_5F  PNP()   ; case TO-220
+.MODEL BD240B       PNP(Is=51.23f Xti=3 Eg=1.11 Vaf=100 Bf=434.1 Ise=51.23f Ne=1.22
++   Ikf=.3883 Nk=.5544 Xtb=2.2 Br=55.47 Isc=51.23f Nc=1.205
++   Ikr=10.87 Rc=.3443 Cjc=136.9p Mjc=.3155 Vjc=.75 Fc=.5
++   Cje=179.9p Mje=.4294 Vje=.75 Tr=20.25n Tf=13.05n Itf=6.85
++   Xtf=1.573 Vtf=10 Rb=.1)
+*****************************************************************************
+*.model BD240C  ako:NSC_5F  PNP()   ; case TO-220
+.MODEL BD240C       PNP(Is=51.23f Xti=3 Eg=1.11 Vaf=100 Bf=434.1 Ise=51.23f Ne=1.22
++   Ikf=.3883 Nk=.5544 Xtb=2.2 Br=55.47 Isc=51.23f Nc=1.205
++   Ikr=10.87 Rc=.3443 Cjc=136.9p Mjc=.3155 Vjc=.75 Fc=.5
++   Cje=179.9p Mje=.4294 Vje=.75 Tr=20.25n Tf=13.05n Itf=6.85
++   Xtf=1.573 Vtf=10 Rb=.1)
+*****************************************************************************
+*.model BD241   ako:NSC_4F  NPN()   ; case TO-220
+.MODEL BD241       NPN(Is=2.447p Xti=3 Eg=1.11 Vaf=100 Bf=208.2 Ise=70.69p
++   Ne=1.565 Ikf=.9743 Nk=.6134 Xtb=1.5 Br=12.59 Isc=11.68n
++   Nc=1.835 Ikr=3.86 Rc=.4685 Cjc=142p Mjc=.4353 Vjc=.75 Fc=.5
++   Cje=188.5p Mje=.4878 Vje=.75 Tr=194.2n Tf=19.85n Itf=164.1
++   Xtf=5.945 Vtf=10 Rb=.1)
+*****************************************************************************
+*.model BD241A  ako:NSC_4F  NPN()   ; case TO-220
+.MODEL BD241A      NPN(Is=2.447p Xti=3 Eg=1.11 Vaf=100 Bf=208.2 Ise=70.69p
++   Ne=1.565 Ikf=.9743 Nk=.6134 Xtb=1.5 Br=12.59 Isc=11.68n
++   Nc=1.835 Ikr=3.86 Rc=.4685 Cjc=142p Mjc=.4353 Vjc=.75 Fc=.5
++   Cje=188.5p Mje=.4878 Vje=.75 Tr=194.2n Tf=19.85n Itf=164.1
++   Xtf=5.945 Vtf=10 Rb=.1)
+*****************************************************************************
+*.model BD241B  ako:NSC_4F  NPN()   ; case TO-220
+.MODEL BD241B      NPN(Is=2.447p Xti=3 Eg=1.11 Vaf=100 Bf=208.2 Ise=70.69p
++   Ne=1.565 Ikf=.9743 Nk=.6134 Xtb=1.5 Br=12.59 Isc=11.68n
++   Nc=1.835 Ikr=3.86 Rc=.4685 Cjc=142p Mjc=.4353 Vjc=.75 Fc=.5
++   Cje=188.5p Mje=.4878 Vje=.75 Tr=194.2n Tf=19.85n Itf=164.1
++   Xtf=5.945 Vtf=10 Rb=.1)
+*****************************************************************************
+*.model BD241C  ako:NSC_4F  NPN()   ; case TO-220
+.MODEL BD241C      NPN(Is=2.447p Xti=3 Eg=1.11 Vaf=100 Bf=208.2 Ise=70.69p
++   Ne=1.565 Ikf=.9743 Nk=.6134 Xtb=1.5 Br=12.59 Isc=11.68n
++   Nc=1.835 Ikr=3.86 Rc=.4685 Cjc=142p Mjc=.4353 Vjc=.75 Fc=.5
++   Cje=188.5p Mje=.4878 Vje=.75 Tr=194.2n Tf=19.85n Itf=164.1
++   Xtf=5.945 Vtf=10 Rb=.1)
+*****************************************************************************
+*.model BD242   ako:NSC_5E  PNP()   ; case TO-220
+.MODEL BD242       PNP(Is=632.4f Xti=3 Eg=1.11 Vaf=100 Bf=112.1 Ise=962.8f
++   Ne=1.373 Ikf=2.187 Nk=.6196 Xtb=2.1 Br=66.4 Isc=974.4f Nc=1.207
++   Ikr=125.8 Rc=.2066 Cjc=508.9p Mjc=.4847 Vjc=.75 Fc=.5
++   Cje=379.8p Mje=.4937 Vje=.75 Tr=89.17n Tf=17.41n Itf=5.921
++   Xtf=1.062 Vtf=10 Rb=.1)
+*****************************************************************************
+*.model BD242A  ako:NSC_5E  PNP()   ; case TO-220
+.MODEL BD242A      PNP(Is=632.4f Xti=3 Eg=1.11 Vaf=100 Bf=112.1 Ise=962.8f
++   Ne=1.373 Ikf=2.187 Nk=.6196 Xtb=2.1 Br=66.4 Isc=974.4f Nc=1.207
++   Ikr=125.8 Rc=.2066 Cjc=508.9p Mjc=.4847 Vjc=.75 Fc=.5
++   Cje=379.8p Mje=.4937 Vje=.75 Tr=89.17n Tf=17.41n Itf=5.921
++   Xtf=1.062 Vtf=10 Rb=.1)
+*****************************************************************************
+*.model BD242B  ako:NSC_5E  PNP()   ; case TO-220
+.MODEL BD242B      PNP(Is=632.4f Xti=3 Eg=1.11 Vaf=100 Bf=112.1 Ise=962.8f
++   Ne=1.373 Ikf=2.187 Nk=.6196 Xtb=2.1 Br=66.4 Isc=974.4f Nc=1.207
++   Ikr=125.8 Rc=.2066 Cjc=508.9p Mjc=.4847 Vjc=.75 Fc=.5
++   Cje=379.8p Mje=.4937 Vje=.75 Tr=89.17n Tf=17.41n Itf=5.921
++   Xtf=1.062 Vtf=10 Rb=.1)
+*****************************************************************************
+*.model BD242C  ako:NSC_5E  PNP()   ; case TO-220
+.MODEL BD242C      PNP(Is=632.4f Xti=3 Eg=1.11 Vaf=100 Bf=112.1 Ise=962.8f
++   Ne=1.373 Ikf=2.187 Nk=.6196 Xtb=2.1 Br=66.4 Isc=974.4f Nc=1.207
++   Ikr=125.8 Rc=.2066 Cjc=508.9p Mjc=.4847 Vjc=.75 Fc=.5
++   Cje=379.8p Mje=.4937 Vje=.75 Tr=89.17n Tf=17.41n Itf=5.921
++   Xtf=1.062 Vtf=10 Rb=.1)
+*****************************************************************************
+*.model BD243   ako:NSC_4A  NPN()   ; case TO-220
+.MODEL BD243       NPN(Is=457.5f Xti=3 Eg=1.11 Vaf=50 Bf=156.7 Ise=1.346p Ne=1.34
++   Ikf=3.296 Nk=.5961 Xtb=2.2 Br=7.639 Isc=604.1f Nc=2.168
++   Ikr=8.131m Rc=91.29m Cjc=278.7p Mjc=.385 Vjc=.75 Fc=.5 Cje=433p
++   Mje=.5 Vje=.75 Tr=1.412u Tf=37.34n Itf=35.68 Xtf=1.163 Vtf=10
++   Rb=.1)
+*****************************************************************************
+*.model BD243A  ako:NSC_4A  NPN()   ; case TO-220
+.MODEL BD243A      NPN(Is=457.5f Xti=3 Eg=1.11 Vaf=50 Bf=156.7 Ise=1.346p Ne=1.34
++   Ikf=3.296 Nk=.5961 Xtb=2.2 Br=7.639 Isc=604.1f Nc=2.168
++   Ikr=8.131m Rc=91.29m Cjc=278.7p Mjc=.385 Vjc=.75 Fc=.5 Cje=433p
++   Mje=.5 Vje=.75 Tr=1.412u Tf=37.34n Itf=35.68 Xtf=1.163 Vtf=10
++   Rb=.1)
+*****************************************************************************
+*.model BD243B  ako:NSC_4A  NPN()   ; case TO-220
+.MODEL BD243B      NPN(Is=457.5f Xti=3 Eg=1.11 Vaf=50 Bf=156.7 Ise=1.346p Ne=1.34
++   Ikf=3.296 Nk=.5961 Xtb=2.2 Br=7.639 Isc=604.1f Nc=2.168
++   Ikr=8.131m Rc=91.29m Cjc=278.7p Mjc=.385 Vjc=.75 Fc=.5 Cje=433p
++   Mje=.5 Vje=.75 Tr=1.412u Tf=37.34n Itf=35.68 Xtf=1.163 Vtf=10
++   Rb=.1)
+*****************************************************************************
+*.model BD243C  ako:NSC_4A  NPN()   ; case TO-220
+.MODEL BD243C      NPN(Is=457.5f Xti=3 Eg=1.11 Vaf=50 Bf=156.7 Ise=1.346p Ne=1.34
++   Ikf=3.296 Nk=.5961 Xtb=2.2 Br=7.639 Isc=604.1f Nc=2.168
++   Ikr=8.131m Rc=91.29m Cjc=278.7p Mjc=.385 Vjc=.75 Fc=.5 Cje=433p
++   Mje=.5 Vje=.75 Tr=1.412u Tf=37.34n Itf=35.68 Xtf=1.163 Vtf=10
++   Rb=.1)
+*****************************************************************************
+*.model BD244   ako:NSC_5A  PNP()   ; case TO-220
+.MODEL BD244       PNP(Is=66.19f Xti=3 Eg=1.11 Vaf=100 Bf=137.6 Ise=862.2f
++   Ne=1.481 Ikf=1.642 Nk=.5695 Xtb=2 Br=5.88 Isc=273.5f Nc=1.24
++   Ikr=3.555 Rc=79.39m Cjc=870.4p Mjc=.6481 Vjc=.75 Fc=.5
++   Cje=390.1p Mje=.4343 Vje=.75 Tr=235.4n Tf=23.21n Itf=71.33
++   Xtf=5.982 Vtf=10 Rb=.1)
+*****************************************************************************
+*.model BD244A  ako:NSC_5A  PNP()   ; case TO-220
+.MODEL BD244A      PNP(Is=66.19f Xti=3 Eg=1.11 Vaf=100 Bf=137.6 Ise=862.2f
++   Ne=1.481 Ikf=1.642 Nk=.5695 Xtb=2 Br=5.88 Isc=273.5f Nc=1.24
++   Ikr=3.555 Rc=79.39m Cjc=870.4p Mjc=.6481 Vjc=.75 Fc=.5
++   Cje=390.1p Mje=.4343 Vje=.75 Tr=235.4n Tf=23.21n Itf=71.33
++   Xtf=5.982 Vtf=10 Rb=.1)
+*****************************************************************************
+*.model BD244B  ako:NSC_5A  PNP()   ; case TO-220
+.MODEL BD244B      PNP(Is=66.19f Xti=3 Eg=1.11 Vaf=100 Bf=137.6 Ise=862.2f
++   Ne=1.481 Ikf=1.642 Nk=.5695 Xtb=2 Br=5.88 Isc=273.5f Nc=1.24
++   Ikr=3.555 Rc=79.39m Cjc=870.4p Mjc=.6481 Vjc=.75 Fc=.5
++   Cje=390.1p Mje=.4343 Vje=.75 Tr=235.4n Tf=23.21n Itf=71.33
++   Xtf=5.982 Vtf=10 Rb=.1)
+*****************************************************************************
+*.model BD244C  ako:NSC_5A  PNP()   ; case TO-220
+.MODEL BD244C      PNP(Is=66.19f Xti=3 Eg=1.11 Vaf=100 Bf=137.6 Ise=862.2f
++   Ne=1.481 Ikf=1.642 Nk=.5695 Xtb=2 Br=5.88 Isc=273.5f Nc=1.24
++   Ikr=3.555 Rc=79.39m Cjc=870.4p Mjc=.6481 Vjc=.75 Fc=.5
++   Cje=390.1p Mje=.4343 Vje=.75 Tr=235.4n Tf=23.21n Itf=71.33
++   Xtf=5.982 Vtf=10 Rb=.1)
+*****************************************************************************
+*.model BD346   ako:NSC_5A  PNP()   ; case TO-220
+.MODEL BD346       PNP(Is=66.19f Xti=3 Eg=1.11 Vaf=100 Bf=137.6 Ise=862.2f
++   Ne=1.481 Ikf=1.642 Nk=.5695 Xtb=2 Br=5.88 Isc=273.5f Nc=1.24
++   Ikr=3.555 Rc=79.39m Cjc=870.4p Mjc=.6481 Vjc=.75 Fc=.5
++   Cje=390.1p Mje=.4343 Vje=.75 Tr=235.4n Tf=23.21n Itf=71.33
++   Xtf=5.982 Vtf=10 Rb=.1)
+*****************************************************************************
+*.model BD347   ako:NSC_4A  NPN()   ; case TO-220
+.MODEL BD347       NPN(Is=457.5f Xti=3 Eg=1.11 Vaf=50 Bf=156.7 Ise=1.346p Ne=1.34
++   Ikf=3.296 Nk=.5961 Xtb=2.2 Br=7.639 Isc=604.1f Nc=2.168
++   Ikr=8.131m Rc=91.29m Cjc=278.7p Mjc=.385 Vjc=.75 Fc=.5 Cje=433p
++   Mje=.5 Vje=.75 Tr=1.412u Tf=37.34n Itf=35.68 Xtf=1.163 Vtf=10
++   Rb=.1)
+*****************************************************************************
+*.model BD433   ako:NSC_4E  NPN()   ; case TO-126
+.MODEL BD433       NPN(Is=1.129p Xti=3 Eg=1.11 Vaf=100 Bf=161 Ise=31.17p Ne=1.557
++   Ikf=1.948 Nk=.648 Xtb=2 Br=1 Isc=23.5p Nc=1.489 Ikr=31.34m
++   Rc=.1682 Cjc=251.5p Mjc=.5045 Vjc=.75 Fc=.5 Cje=286.3p
++   Mje=.4961 Vje=.75 Tr=810n Tf=23.64n Itf=10.92 Xtf=.3795 Vtf=10
++   Rb=.1)
+*****************************************************************************
+*.model BD434   ako:NSC_5E  PNP()   ; case TO-126
+.MODEL BD434       PNP(Is=632.4f Xti=3 Eg=1.11 Vaf=100 Bf=112.1 Ise=962.8f
++   Ne=1.373 Ikf=2.187 Nk=.6196 Xtb=2.1 Br=66.4 Isc=974.4f Nc=1.207
++   Ikr=125.8 Rc=.2066 Cjc=508.9p Mjc=.4847 Vjc=.75 Fc=.5
++   Cje=379.8p Mje=.4937 Vje=.75 Tr=89.17n Tf=17.41n Itf=5.921
++   Xtf=1.062 Vtf=10 Rb=.1)
+*****************************************************************************
+*.model BD435   ako:NSC_4E  NPN()   ; case TO-126
+.MODEL BD435       NPN(Is=1.129p Xti=3 Eg=1.11 Vaf=100 Bf=161 Ise=31.17p Ne=1.557
++   Ikf=1.948 Nk=.648 Xtb=2 Br=1 Isc=23.5p Nc=1.489 Ikr=31.34m
++   Rc=.1682 Cjc=251.5p Mjc=.5045 Vjc=.75 Fc=.5 Cje=286.3p
++   Mje=.4961 Vje=.75 Tr=810n Tf=23.64n Itf=10.92 Xtf=.3795 Vtf=10
++   Rb=.1)
+*****************************************************************************
+*.model BD436   ako:NSC_5E  PNP()   ; case TO-126
+.MODEL BD436       PNP(Is=632.4f Xti=3 Eg=1.11 Vaf=100 Bf=112.1 Ise=962.8f
++   Ne=1.373 Ikf=2.187 Nk=.6196 Xtb=2.1 Br=66.4 Isc=974.4f Nc=1.207
++   Ikr=125.8 Rc=.2066 Cjc=508.9p Mjc=.4847 Vjc=.75 Fc=.5
++   Cje=379.8p Mje=.4937 Vje=.75 Tr=89.17n Tf=17.41n Itf=5.921
++   Xtf=1.062 Vtf=10 Rb=.1)
+*****************************************************************************
+*.model BD437   ako:NSC_4E  NPN()   ; case TO-126
+.MODEL BD437       NPN(Is=1.129p Xti=3 Eg=1.11 Vaf=100 Bf=161 Ise=31.17p Ne=1.557
++   Ikf=1.948 Nk=.648 Xtb=2 Br=1 Isc=23.5p Nc=1.489 Ikr=31.34m
++   Rc=.1682 Cjc=251.5p Mjc=.5045 Vjc=.75 Fc=.5 Cje=286.3p
++   Mje=.4961 Vje=.75 Tr=810n Tf=23.64n Itf=10.92 Xtf=.3795 Vtf=10
++   Rb=.1)
+*****************************************************************************
+*.model BD438   ako:NSC_5E  PNP()   ; case TO-126
+.MODEL BD438       PNP(Is=632.4f Xti=3 Eg=1.11 Vaf=100 Bf=112.1 Ise=962.8f
++   Ne=1.373 Ikf=2.187 Nk=.6196 Xtb=2.1 Br=66.4 Isc=974.4f Nc=1.207
++   Ikr=125.8 Rc=.2066 Cjc=508.9p Mjc=.4847 Vjc=.75 Fc=.5
++   Cje=379.8p Mje=.4937 Vje=.75 Tr=89.17n Tf=17.41n Itf=5.921
++   Xtf=1.062 Vtf=10 Rb=.1)
+*****************************************************************************
+*.model BD439   ako:NSC_4E  NPN()   ; case TO-126
+.MODEL BD439       NPN(Is=1.129p Xti=3 Eg=1.11 Vaf=100 Bf=161 Ise=31.17p Ne=1.557
++   Ikf=1.948 Nk=.648 Xtb=2 Br=1 Isc=23.5p Nc=1.489 Ikr=31.34m
++   Rc=.1682 Cjc=251.5p Mjc=.5045 Vjc=.75 Fc=.5 Cje=286.3p
++   Mje=.4961 Vje=.75 Tr=810n Tf=23.64n Itf=10.92 Xtf=.3795 Vtf=10
++   Rb=.1)
+*****************************************************************************
+*.model BD440   ako:NSC_5E  PNP()   ; case TO-126
+.MODEL BD440       PNP(Is=632.4f Xti=3 Eg=1.11 Vaf=100 Bf=112.1 Ise=962.8f
++   Ne=1.373 Ikf=2.187 Nk=.6196 Xtb=2.1 Br=66.4 Isc=974.4f Nc=1.207
++   Ikr=125.8 Rc=.2066 Cjc=508.9p Mjc=.4847 Vjc=.75 Fc=.5
++   Cje=379.8p Mje=.4937 Vje=.75 Tr=89.17n Tf=17.41n Itf=5.921
++   Xtf=1.062 Vtf=10 Rb=.1)
+*****************************************************************************
+*.model BD441   ako:NSC_4E  NPN()   ; case TO-126
+.MODEL BD441       NPN(Is=1.129p Xti=3 Eg=1.11 Vaf=100 Bf=161 Ise=31.17p Ne=1.557
++   Ikf=1.948 Nk=.648 Xtb=2 Br=1 Isc=23.5p Nc=1.489 Ikr=31.34m
++   Rc=.1682 Cjc=251.5p Mjc=.5045 Vjc=.75 Fc=.5 Cje=286.3p
++   Mje=.4961 Vje=.75 Tr=810n Tf=23.64n Itf=10.92 Xtf=.3795 Vtf=10
++   Rb=.1)
+*****************************************************************************
+*.model BD442   ako:NSC_5E  PNP()   ; case TO-126
+.MODEL BD442       PNP(Is=632.4f Xti=3 Eg=1.11 Vaf=100 Bf=112.1 Ise=962.8f
++   Ne=1.373 Ikf=2.187 Nk=.6196 Xtb=2.1 Br=66.4 Isc=974.4f Nc=1.207
++   Ikr=125.8 Rc=.2066 Cjc=508.9p Mjc=.4847 Vjc=.75 Fc=.5
++   Cje=379.8p Mje=.4937 Vje=.75 Tr=89.17n Tf=17.41n Itf=5.921
++   Xtf=1.062 Vtf=10 Rb=.1)
+*****************************************************************************
+.model BD533    NPN(Is=974.4f Xti=3 Eg=1.11 Vaf=100 Bf=419.4 Ise=4.426n
++       Ne=2.369 Ikf=.224 Nk=.4724 Xtb=1.5 Br=13.84 Isc=989.4f Nc=1.981
++       Ikr=.3968 Rc=.1102 Cjc=214.4p Mjc=.3333 Vjc=.5 Fc=.5 Cje=643.2p
++       Mje=.3333 Vje=.5 Tr=138.3n Tf=12.08n Itf=13.16 Xtf=1.445 Vtf=10)
+*       HARRIS      pid=bd533   case=TO220AB
+*       91-09-10 dsq
+*****************************************************************************
+.model BD534    PNP(Is=65.06f Xti=3 Eg=1.11 Vaf=100 Bf=1.027K Ise=1.229p
++       Ne=1.442 Ikf=.2465 Nk=.4835 Xtb=1.5 Br=81.24 Isc=65.16f
++       Nc=1.309 Ikr=1.19 Rc=80.56m Cjc=309.2p Mjc=.3333 Vjc=.5 Fc=.5
++       Cje=327.6p Mje=.3333 Vje=.5 Tr=19.2n Tf=8.957n Itf=12.83
++       Xtf=1.718 Vtf=10)
+*       HARRIS      pid=bd534   case=TO220AB
+*       91-09-10 dsq
+*****************************************************************************
+.model BD535    NPN(Is=974.4f Xti=3 Eg=1.11 Vaf=100 Bf=419.4 Ise=4.426n
++       Ne=2.369 Ikf=.224 Nk=.4724 Xtb=1.5 Br=13.84 Isc=989.4f Nc=1.981
++       Ikr=.3968 Rc=.1102 Cjc=214.4p Mjc=.3333 Vjc=.5 Fc=.5 Cje=643.2p
++       Mje=.3333 Vje=.5 Tr=138.3n Tf=12.08n Itf=13.16 Xtf=1.445 Vtf=10)
+*       HARRIS      pid=bd533   case=TO220AB
+*       91-09-10 dsq
+*****************************************************************************
+.model BD536    PNP(Is=65.06f Xti=3 Eg=1.11 Vaf=100 Bf=1.027K Ise=1.229p
++       Ne=1.442 Ikf=.2465 Nk=.4835 Xtb=1.5 Br=81.24 Isc=65.16f
++       Nc=1.309 Ikr=1.19 Rc=80.56m Cjc=309.2p Mjc=.3333 Vjc=.5 Fc=.5
++       Cje=327.6p Mje=.3333 Vje=.5 Tr=19.2n Tf=8.957n Itf=12.83
++       Xtf=1.718 Vtf=10)
+*       HARRIS      pid=bd534   case=TO220AB
+*       91-09-10 dsq
+*****************************************************************************
+.model BD537    NPN(Is=974.4f Xti=3 Eg=1.11 Vaf=100 Bf=419.4 Ise=4.426n
++       Ne=2.369 Ikf=.224 Nk=.4724 Xtb=1.5 Br=13.84 Isc=989.4f Nc=1.981
++       Ikr=.3968 Rc=.1102 Cjc=214.4p Mjc=.3333 Vjc=.5 Fc=.5 Cje=643.2p
++       Mje=.3333 Vje=.5 Tr=138.3n Tf=12.08n Itf=13.16 Xtf=1.445 Vtf=10)
+*       HARRIS      pid=bd533   case=TO220AB
+*       91-09-10 dsq
+*****************************************************************************
+.model BD538    PNP(Is=65.06f Xti=3 Eg=1.11 Vaf=100 Bf=1.027K Ise=1.229p
++       Ne=1.442 Ikf=.2465 Nk=.4835 Xtb=1.5 Br=81.24 Isc=65.16f
++       Nc=1.309 Ikr=1.19 Rc=80.56m Cjc=309.2p Mjc=.3333 Vjc=.5 Fc=.5
++       Cje=327.6p Mje=.3333 Vje=.5 Tr=19.2n Tf=8.957n Itf=12.83
++       Xtf=1.718 Vtf=10)
+*       HARRIS      pid=bd534   case=TO220AB
+*       91-09-10 dsq
+*****************************************************************************
+*.model BD633   ako:NSC_4F  NPN()   ; case TO-220
+.MODEL BD633       NPN(Is=2.447p Xti=3 Eg=1.11 Vaf=100 Bf=208.2 Ise=70.69p
++   Ne=1.565 Ikf=.9743 Nk=.6134 Xtb=1.5 Br=12.59 Isc=11.68n
++   Nc=1.835 Ikr=3.86 Rc=.4685 Cjc=142p Mjc=.4353 Vjc=.75 Fc=.5
++   Cje=188.5p Mje=.4878 Vje=.75 Tr=194.2n Tf=19.85n Itf=164.1
++   Xtf=5.945 Vtf=10 Rb=.1)
+*****************************************************************************
+*.model BD634   ako:NSC_5F  PNP()   ; case TO-220
+.MODEL BD634        PNP(Is=51.23f Xti=3 Eg=1.11 Vaf=100 Bf=434.1 Ise=51.23f Ne=1.22
++   Ikf=.3883 Nk=.5544 Xtb=2.2 Br=55.47 Isc=51.23f Nc=1.205
++   Ikr=10.87 Rc=.3443 Cjc=136.9p Mjc=.3155 Vjc=.75 Fc=.5
++   Cje=179.9p Mje=.4294 Vje=.75 Tr=20.25n Tf=13.05n Itf=6.85
++   Xtf=1.573 Vtf=10 Rb=.1)
+*****************************************************************************
+*.model BD635   ako:NSC_4F  NPN()   ; case TO-220
+.MODEL BD635       NPN(Is=2.447p Xti=3 Eg=1.11 Vaf=100 Bf=208.2 Ise=70.69p
++   Ne=1.565 Ikf=.9743 Nk=.6134 Xtb=1.5 Br=12.59 Isc=11.68n
++   Nc=1.835 Ikr=3.86 Rc=.4685 Cjc=142p Mjc=.4353 Vjc=.75 Fc=.5
++   Cje=188.5p Mje=.4878 Vje=.75 Tr=194.2n Tf=19.85n Itf=164.1
++   Xtf=5.945 Vtf=10 Rb=.1)
+*****************************************************************************
+*.model BD636   ako:NSC_5F  PNP()   ; case TO-220
+.MODEL BD636        PNP(Is=51.23f Xti=3 Eg=1.11 Vaf=100 Bf=434.1 Ise=51.23f Ne=1.22
++   Ikf=.3883 Nk=.5544 Xtb=2.2 Br=55.47 Isc=51.23f Nc=1.205
++   Ikr=10.87 Rc=.3443 Cjc=136.9p Mjc=.3155 Vjc=.75 Fc=.5
++   Cje=179.9p Mje=.4294 Vje=.75 Tr=20.25n Tf=13.05n Itf=6.85
++   Xtf=1.573 Vtf=10 Rb=.1)
+*****************************************************************************
+*.model BD637   ako:NSC_4F  NPN()   ; case TO-220
+.MODEL BD637       NPN(Is=2.447p Xti=3 Eg=1.11 Vaf=100 Bf=208.2 Ise=70.69p
++   Ne=1.565 Ikf=.9743 Nk=.6134 Xtb=1.5 Br=12.59 Isc=11.68n
++   Nc=1.835 Ikr=3.86 Rc=.4685 Cjc=142p Mjc=.4353 Vjc=.75 Fc=.5
++   Cje=188.5p Mje=.4878 Vje=.75 Tr=194.2n Tf=19.85n Itf=164.1
++   Xtf=5.945 Vtf=10 Rb=.1)
+*****************************************************************************
+*.model BD638   ako:NSC_5F  PNP()   ; case TO-220
+.MODEL BD638        PNP(Is=51.23f Xti=3 Eg=1.11 Vaf=100 Bf=434.1 Ise=51.23f Ne=1.22
++   Ikf=.3883 Nk=.5544 Xtb=2.2 Br=55.47 Isc=51.23f Nc=1.205
++   Ikr=10.87 Rc=.3443 Cjc=136.9p Mjc=.3155 Vjc=.75 Fc=.5
++   Cje=179.9p Mje=.4294 Vje=.75 Tr=20.25n Tf=13.05n Itf=6.85
++   Xtf=1.573 Vtf=10 Rb=.1)
+*****************************************************************************
+*.model BD733   ako:NSC_4F  NPN()   ; case TO-220
+.MODEL BD733       NPN(Is=2.447p Xti=3 Eg=1.11 Vaf=100 Bf=208.2 Ise=70.69p
++   Ne=1.565 Ikf=.9743 Nk=.6134 Xtb=1.5 Br=12.59 Isc=11.68n
++   Nc=1.835 Ikr=3.86 Rc=.4685 Cjc=142p Mjc=.4353 Vjc=.75 Fc=.5
++   Cje=188.5p Mje=.4878 Vje=.75 Tr=194.2n Tf=19.85n Itf=164.1
++   Xtf=5.945 Vtf=10 Rb=.1)
+*****************************************************************************
+*.model BD734   ako:NSC_5E  PNP()   ; case TO-220
+.MODEL BD734       PNP(Is=632.4f Xti=3 Eg=1.11 Vaf=100 Bf=112.1 Ise=962.8f
++   Ne=1.373 Ikf=2.187 Nk=.6196 Xtb=2.1 Br=66.4 Isc=974.4f Nc=1.207
++   Ikr=125.8 Rc=.2066 Cjc=508.9p Mjc=.4847 Vjc=.75 Fc=.5
++   Cje=379.8p Mje=.4937 Vje=.75 Tr=89.17n Tf=17.41n Itf=5.921
++   Xtf=1.062 Vtf=10 Rb=.1)
+*****************************************************************************
+*.model BD735   ako:NSC_4F  NPN()   ; case TO-220
+.MODEL BD735       NPN(Is=2.447p Xti=3 Eg=1.11 Vaf=100 Bf=208.2 Ise=70.69p
++   Ne=1.565 Ikf=.9743 Nk=.6134 Xtb=1.5 Br=12.59 Isc=11.68n
++   Nc=1.835 Ikr=3.86 Rc=.4685 Cjc=142p Mjc=.4353 Vjc=.75 Fc=.5
++   Cje=188.5p Mje=.4878 Vje=.75 Tr=194.2n Tf=19.85n Itf=164.1
++   Xtf=5.945 Vtf=10 Rb=.1)
+*****************************************************************************
+*.model BD736   ako:NSC_5E  PNP()   ; case TO-220
+.MODEL BD736       PNP(Is=632.4f Xti=3 Eg=1.11 Vaf=100 Bf=112.1 Ise=962.8f
++   Ne=1.373 Ikf=2.187 Nk=.6196 Xtb=2.1 Br=66.4 Isc=974.4f Nc=1.207
++   Ikr=125.8 Rc=.2066 Cjc=508.9p Mjc=.4847 Vjc=.75 Fc=.5
++   Cje=379.8p Mje=.4937 Vje=.75 Tr=89.17n Tf=17.41n Itf=5.921
++   Xtf=1.062 Vtf=10 Rb=.1)
+*****************************************************************************
+*.model BD737   ako:NSC_4F  NPN()   ; case TO-220
+.MODEL BD737       NPN(Is=2.447p Xti=3 Eg=1.11 Vaf=100 Bf=208.2 Ise=70.69p
++   Ne=1.565 Ikf=.9743 Nk=.6134 Xtb=1.5 Br=12.59 Isc=11.68n
++   Nc=1.835 Ikr=3.86 Rc=.4685 Cjc=142p Mjc=.4353 Vjc=.75 Fc=.5
++   Cje=188.5p Mje=.4878 Vje=.75 Tr=194.2n Tf=19.85n Itf=164.1
++   Xtf=5.945 Vtf=10 Rb=.1)
+*****************************************************************************
+*.model BD738   ako:NSC_5E  PNP()   ; case TO-220
+.MODEL BD738       PNP(Is=632.4f Xti=3 Eg=1.11 Vaf=100 Bf=112.1 Ise=962.8f
++   Ne=1.373 Ikf=2.187 Nk=.6196 Xtb=2.1 Br=66.4 Isc=974.4f Nc=1.207
++   Ikr=125.8 Rc=.2066 Cjc=508.9p Mjc=.4847 Vjc=.75 Fc=.5
++   Cje=379.8p Mje=.4937 Vje=.75 Tr=89.17n Tf=17.41n Itf=5.921
++   Xtf=1.062 Vtf=10 Rb=.1)
+*****************************************************************************
+*.model BD795   ako:NSC_4E  NPN()   ; case TO-220
+.MODEL BD795       NPN(Is=1.129p Xti=3 Eg=1.11 Vaf=100 Bf=161 Ise=31.17p Ne=1.557
++   Ikf=1.948 Nk=.648 Xtb=2 Br=1 Isc=23.5p Nc=1.489 Ikr=31.34m
++   Rc=.1682 Cjc=251.5p Mjc=.5045 Vjc=.75 Fc=.5 Cje=286.3p
++   Mje=.4961 Vje=.75 Tr=810n Tf=23.64n Itf=10.92 Xtf=.3795 Vtf=10
++   Rb=.1)
+*****************************************************************************
+*.model BD796   ako:NSC_5E  PNP()   ; case TO-220
+.MODEL BD796       PNP(Is=632.4f Xti=3 Eg=1.11 Vaf=100 Bf=112.1 Ise=962.8f
++   Ne=1.373 Ikf=2.187 Nk=.6196 Xtb=2.1 Br=66.4 Isc=974.4f Nc=1.207
++   Ikr=125.8 Rc=.2066 Cjc=508.9p Mjc=.4847 Vjc=.75 Fc=.5
++   Cje=379.8p Mje=.4937 Vje=.75 Tr=89.17n Tf=17.41n Itf=5.921
++   Xtf=1.062 Vtf=10 Rb=.1)
+*****************************************************************************
+*.model BD797   ako:NSC_4E  NPN()   ; case TO-220
+.MODEL BD797       NPN(Is=1.129p Xti=3 Eg=1.11 Vaf=100 Bf=161 Ise=31.17p Ne=1.557
++   Ikf=1.948 Nk=.648 Xtb=2 Br=1 Isc=23.5p Nc=1.489 Ikr=31.34m
++   Rc=.1682 Cjc=251.5p Mjc=.5045 Vjc=.75 Fc=.5 Cje=286.3p
++   Mje=.4961 Vje=.75 Tr=810n Tf=23.64n Itf=10.92 Xtf=.3795 Vtf=10
++   Rb=.1)
+*****************************************************************************
+*.model BD798   ako:NSC_5E  PNP()   ; case TO-220
+.MODEL BD798       PNP(Is=632.4f Xti=3 Eg=1.11 Vaf=100 Bf=112.1 Ise=962.8f
++   Ne=1.373 Ikf=2.187 Nk=.6196 Xtb=2.1 Br=66.4 Isc=974.4f Nc=1.207
++   Ikr=125.8 Rc=.2066 Cjc=508.9p Mjc=.4847 Vjc=.75 Fc=.5
++   Cje=379.8p Mje=.4937 Vje=.75 Tr=89.17n Tf=17.41n Itf=5.921
++   Xtf=1.062 Vtf=10 Rb=.1)
+*****************************************************************************
+*.model BD799   ako:NSC_4E  NPN()   ; case TO-220
+.MODEL BD799       NPN(Is=1.129p Xti=3 Eg=1.11 Vaf=100 Bf=161 Ise=31.17p Ne=1.557
++   Ikf=1.948 Nk=.648 Xtb=2 Br=1 Isc=23.5p Nc=1.489 Ikr=31.34m
++   Rc=.1682 Cjc=251.5p Mjc=.5045 Vjc=.75 Fc=.5 Cje=286.3p
++   Mje=.4961 Vje=.75 Tr=810n Tf=23.64n Itf=10.92 Xtf=.3795 Vtf=10
++   Rb=.1)
+*****************************************************************************
+*.model BD800   ako:NSC_5E  PNP()   ; case TO-220
+.MODEL BD800       PNP(Is=632.4f Xti=3 Eg=1.11 Vaf=100 Bf=112.1 Ise=962.8f
++   Ne=1.373 Ikf=2.187 Nk=.6196 Xtb=2.1 Br=66.4 Isc=974.4f Nc=1.207
++   Ikr=125.8 Rc=.2066 Cjc=508.9p Mjc=.4847 Vjc=.75 Fc=.5
++   Cje=379.8p Mje=.4937 Vje=.75 Tr=89.17n Tf=17.41n Itf=5.921
++   Xtf=1.062 Vtf=10 Rb=.1)
+*****************************************************************************
+*.model BD801   ako:NSC_4E  NPN()   ; case TO-220
+.MODEL BD801       NPN(Is=1.129p Xti=3 Eg=1.11 Vaf=100 Bf=161 Ise=31.17p Ne=1.557
++   Ikf=1.948 Nk=.648 Xtb=2 Br=1 Isc=23.5p Nc=1.489 Ikr=31.34m
++   Rc=.1682 Cjc=251.5p Mjc=.5045 Vjc=.75 Fc=.5 Cje=286.3p
++   Mje=.4961 Vje=.75 Tr=810n Tf=23.64n Itf=10.92 Xtf=.3795 Vtf=10
++   Rb=.1)
+*****************************************************************************
+*.model BD802   ako:NSC_5E  PNP()   ; case TO-220
+.MODEL BD802       PNP(Is=632.4f Xti=3 Eg=1.11 Vaf=100 Bf=112.1 Ise=962.8f
++   Ne=1.373 Ikf=2.187 Nk=.6196 Xtb=2.1 Br=66.4 Isc=974.4f Nc=1.207
++   Ikr=125.8 Rc=.2066 Cjc=508.9p Mjc=.4847 Vjc=.75 Fc=.5
++   Cje=379.8p Mje=.4937 Vje=.75 Tr=89.17n Tf=17.41n Itf=5.921
++   Xtf=1.062 Vtf=10 Rb=.1)
+*S
+******************************************************************************************
+.MODEL TIP41C npn
++IS=7.55826e-11 BF=260.542 NF=1.11221 VAF=100
++IKF=0.526814 ISE=1e-08 NE=2.18072 BR=26.0542
++NR=1.5 VAR=1000 IKR=3.54059 ISC=1e-08
++NC=1.63849 RB=4.56157 IRB=0.1 RBM=0.1
++RE=0.0162111 RC=0.0810556 XTB=0.1 XTI=1
++EG=1.206 CJE=1.93296e-10 VJE=0.4 MJE=0.259503
++TF=1e-08 XTF=4.06972 VTF=7.1157 ITF=0.001
++CJC=1.09657e-10 VJC=0.730921 MJC=0.23 XCJC=0.803085
++FC=0.8 CJS=0 VJS=0.75 MJS=0.5
++TR=9.01013e-08 PTF=0 KF=0 AF=1
+******************************************************************************************
+.MODEL TIP42C pnp
++IS=5.65618e-10 BF=120.073 NF=1.24004 VAF=90.6071
++IKF=1.46498 ISE=6.98929e-14 NE=4 BR=2.83268
++NR=1.30331 VAR=27.1221 IKR=10 ISC=6.98934e-14
++NC=3.78125 RB=4.71382 IRB=0.234602 RBM=0.12691
++RE=0.000666374 RC=0.0927424 XTB=3.21145 XTI=1
++EG=1.05 CJE=1.93221e-10 VJE=0.4 MJE=0.259369
++TF=9.99163e-09 XTF=4.41941 VTF=6.53488 ITF=0.001
++CJC=1.0962e-10 VJC=0.731968 MJC=0.23 XCJC=0.799902
++FC=0.799995 CJS=0 VJS=0.75 MJS=0.5
++TR=1e-07 PTF=0 KF=0 AF=1
+******************************************************************************************
+.MODEL TIP33 npn
++IS=1.78049e-13 BF=181.699 NF=1.14594 VAF=29.1169
++IKF=2.9597 ISE=7.74733e-12 NE=3.34424 BR=3.8313
++NR=1.5 VAR=2.29257 IKR=4.04246 ISC=4.75e-13
++NC=3.96875 RB=7.58771 IRB=0.1 RBM=0.1
++RE=0.00462766 RC=0.309025 XTB=0.104646 XTI=1.03457
++EG=1.206 CJE=6.22977e-08 VJE=0.561138 MJE=0.525475
++TF=1e-08 XTF=1.35734 VTF=0.996794 ITF=0.999821
++CJC=4.44112e-10 VJC=0.400154 MJC=0.410334 XCJC=0.803125
++FC=0.636077 CJS=0 VJS=0.75 MJS=0.5
++TR=1e-07 PTF=0 KF=0 AF=1
+******************************************************************************************
+

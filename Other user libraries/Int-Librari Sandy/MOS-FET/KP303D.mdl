@@ -1,0 +1,21 @@
+ .model KP303D NJF
+ +	Beta 	= 1.031m
+ +	Betatce	= -0.5
+ +	Rd		= 1
+ +	Rs		= 1
+ +	Lambda 	= 4.2m
+ +	Vto 	= -2.3
+ +	Vtotc 	= -2.5m
+ +	Is 		= 33.57f
+ +	Isr		= 322.4f
+ +	N 		= 1 Nr=2
+ +	Xti		= 3
+ +	Alpha	= 311.7u
+ +	Vk		= 243.6
+ +	Cgd		= 2.132p
+ +	M		= 0.3622
+ +	Pb		= 1
+ +	Fc		= 0.5
+ +	Cgs		= 2.104p
+ +	Kf		= 2 3.06E-18
+ +	Af		= 1

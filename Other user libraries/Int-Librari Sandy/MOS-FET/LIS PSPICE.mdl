@@ -1,0 +1,268 @@
+****************************************************************************
+*****  LINEAR INTEGRATED SYSTEMS DMOS MODELS REV A. OCTOBER 10, 2002.  *****
+*****                                                                  *****
+*****  For samples, data sheets, pricing, sales and technical support,
+*****  please contact us at:
+*****
+*****  Linear Integrated Systems    
+*****  4042 Clipper Court
+*****  Fremont, CA 94538 USA
+*****  phone: 510-490-9160 
+*****  fax: 510-353-0261
+*****  email: sales@linearsystems.com
+*****  web: www.linearsystems.com
+*****
+*****                                                                  *****
+*****  MODEL NAMES:                                                    *****
+*****            SD210DE: DMOS device model W=889um L=0.5um T=27C.     ***** 
+*****            BIAS RANGE: VDSmax=20V VGSmax=2.5V VBSmax=-2V         *****
+*****                                                                  *****
+*****            SD214DE: DMOS device model W=889um L=0.5um T=27C.     ***** 
+*****            BIAS RANGE: VDSmax=12V VGSmax=2.5V VBSmax=-2V         *****
+*****                                                                  *****
+*****            SD5400: DMOS device model W=889um L=0.5um T=27C.      ***** 
+*****            BIAS RANGE: VDSmax=20V VGSmax=3.5V VBSmax=-2V         *****
+*****                                                                  *****
+*****            SD5400CY: DMOS device model W=889um L=0.5um T=27C.    ***** 
+*****            BIAS RANGE: VDSmax=12V VGSmax=3.5V VBSmax=-2V         *****
+*****                                                                  *****
+*****            SST211: DMOS device model W=889um L=0.5um T=27C.      ***** 
+*****            BIAS RANGE: VDSmax=30V VGSmax=2.5V VBSmax=-2V         *****
+*****                                                                  *****
+*****            SST213: DMOS device model W=889um L=0.5um T=27C.      ***** 
+*****            BIAS RANGE: VDSmax=10V VGSmax=3.5V VBSmax=-2V         *****
+*****                                                                  *****
+*****            SST215: DMOS device model W=889um L=0.5um T=27C.      ***** 
+*****            BIAS RANGE: VDSmax=20V VGSmax=3.5V VBSmax=-2V         *****
+*****                                                                  *****
+*****                                                                  *****
+***** GEOMETRY RANGE: All devices have the same W=889um and L=0.5um.   *****
+*****                                                                  *****
+***** !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!  *****
+***** CONTENTS: PSPICE COMPATIBLE BSIM3v3.1 CMOS MODELS                *****
+***** PREPARED BY: M. TANER, /SILVACO INTERNATIONAL                    *****
+****************************************************************************
+*
+* W=  889.0um L=    0.5um                                                           
+.MODEL SD210DE NMOS (LEVEL   = 7
++TNOM    = 27             TOX     = 1E-7
++XJ      = 1.5E-7         NCH     = 1.7E17         VTH0    = 0.8385079          
++K1      = 2.2042635      K2      = -2.32613E-4    K3      = 80                 
++K3B     = 0              W0      = 2.5E-6         NLX     = 1.74E-7            
++DVT0W   = 0              DVT1W   = 0              DVT2W   = -0.032             
++DVT0    = 2.2            DVT1    = 0.53           DVT2    = -0.032             
++U0      = 387.0815953    UA      = 8.9561E-10     UB      = 9.794738E-20       
++UC      = -1E-10         VSAT    = 8.5E4          A0      = 0.89               
++AGS     = 0              B0      = 0              B1      = 0                  
++KETA    = -0.047         A1      = 0              A2      = 1                  
++RDSW    = 3.5E3          PRWG    = 0              PRWB    = 0                  
++WR      = 1              WINT    = 0              LINT    = 0
++XL      = 0              XW      = 0              DWG     = 0                  
++DWB     = 0              VOFF    = -0.1408106     NFACTOR = 0.1035439          
++CIT     = 0              CDSC    = 1.9E-4         CDSCD   = 0                  
++CDSCB   = 0              ETA0    = 1E-5           ETAB    = -0.07              
++DSUB    = 0.56           PCLM    = 0.134          PDIBLC1 = 5.934E-5           
++PDIBLC2 = 1.013829E-4    PDIBLCB = 0              DROUT   = 1.309213           
++PSCBE1  = 6.014E8        PSCBE2  = 5E-6           PVAG    = 0.5405676          
++DELTA   = 0.2156691      MOBMOD  = 1              PRT     = 0                  
++UTE     = -1.5           KT1     = 0              KT1L    = 0                  
++KT2     = 0              UA1     = 4.31E-9        UB1     = -7.61E-18          
++UC1     = -5.6E-11       AT      = 3.3E4          PHI     = 0.7582363          
++NQSMOD  = 0              WL      = 0              WLN     = 1                  
++WW      = 0              WWN     = 1              WWL     = 0                  
++LL      = 0              LLN     = 1              LW      = 0                  
++LWN     = 1              LWL     = 0              CAPMOD  = 2                  
++XPART   = 0              CGDO    = 2.229944E-9    CGSO    = 3.689494E-9        
++DLC     = 0              DWC     = 0               )                           
+*                                                                               
+* W=  889.0um L=    0.5um
+.MODEL SD214DE NMOS (LEVEL   = 7
++TNOM    = 27             TOX     = 1E-7
++XJ      = 1.5E-7         NCH     = 1.7E17         VTH0    = 0.8927416
++K1      = 2.273242       K2      = -3.738831E-5   K3      = 80                 
++K3B     = 0              W0      = 2.5E-6         NLX     = 1.74E-7            
++DVT0W   = 0              DVT1W   = 0              DVT2W   = -0.032             
++DVT0    = 2.2            DVT1    = 0.53           DVT2    = -0.032             
++U0      = 448.8214468    UA      = 8.37645E-10    UB      = 8.292732E-20       
++UC      = -1E-10         VSAT    = 8.5E4          A0      = 0.91               
++AGS     = 0              B0      = 0              B1      = 0                  
++KETA    = -0.047         A1      = 0              A2      = 1                  
++RDSW    = 3.5E3          PRWG    = 0              PRWB    = 0                  
++WR      = 1              WINT    = 0              LINT    = 0                  
++XL      = 0              XW      = 0              DWG     = 0                  
++DWB     = 0              VOFF    = -0.1149302     NFACTOR = 0.1106101          
++CIT     = 0              CDSC    = 1.5E-4         CDSCD   = 0                  
++CDSCB   = 0              ETA0    = 1E-5           ETAB    = -0.07              
++DSUB    = 0.56           PCLM    = 0.134          PDIBLC1 = 5.934E-5           
++PDIBLC2 = 1.013829E-5    PDIBLCB = 0              DROUT   = 1.309213           
++PSCBE1  = 5.04E8         PSCBE2  = 5E-6           PVAG    = 0.1405676          
++DELTA   = 0.1615669      MOBMOD  = 1              PRT     = 0                  
++UTE     = -1.5           KT1     = 0              KT1L    = 0                  
++KT2     = 0              UA1     = 4.31E-9        UB1     = -7.61E-18          
++UC1     = -5.6E-11       AT      = 3.3E4          PHI     = 0.7582363          
++NQSMOD  = 0              WL      = 0              WLN     = 1                  
++WW      = 0              WWN     = 1              WWL     = 0                  
++LL      = 0              LLN     = 1              LW      = 0                  
++LWN     = 1              LWL     = 0              CAPMOD  = 2                  
++XPART   = 0              CGDO    = 4.1282E-9      CGSO    = 3.83036E-9         
++DLC     = 0              DWC     = 0               )                           
+*                                                                               
+* W=  889.0um L=    0.5um                                                           
+.MODEL SD5400 NMOS (LEVEL   = 7
++TNOM    = 27             TOX     = 1E-7
++XJ      = 1.5E-7         NCH     = 1.7E17         VTH0    = 1.2267984          
++K1      = 2.4398213      K2      = -6.082649E-3   K3      = 80                 
++K3B     = 0              W0      = 2.5E-6         NLX     = 1.74E-7            
++DVT0W   = 0              DVT1W   = 0              DVT2W   = -0.032             
++DVT0    = 2.2            DVT1    = 0.53           DVT2    = -0.032             
++U0      = 592.8835244    UA      = 9.9665E-9      UB      = 1.120368E-18       
++UC      = 2.639614E-9    VSAT    = 8.8E4          A0      = 0.91               
++AGS     = 0              B0      = 0              B1      = 0                  
++KETA    = -0.047         A1      = 0              A2      = 1                  
++RDSW    = 6.5E3          PRWG    = 0              PRWB    = 0                  
++WR      = 1              WINT    = 0              LINT    = 0                  
++XL      = 0              XW      = 0              DWG     = 0                  
++DWB     = 0              VOFF    = -0.0860159     NFACTOR = 0.252821           
++CIT     = 0              CDSC    = 1.5E-4         CDSCD   = 0                  
++CDSCB   = 0              ETA0    = 1E-7           ETAB    = -0.07              
++DSUB    = 0.56           PCLM    = 0.134          PDIBLC1 = 5.934E-5           
++PDIBLC2 = 1.013829E-5    PDIBLCB = 0              DROUT   = 0.176              
++PSCBE1  = 6.7357E8       PSCBE2  = 5E-6           PVAG    = 0.1405676          
++DELTA   = 0.1615669      MOBMOD  = 1              PRT     = 0                  
++UTE     = -1.5           KT1     = 0              KT1L    = 0                  
++KT2     = 0              UA1     = 4.31E-9        UB1     = -7.61E-18          
++UC1     = -5.6E-11       AT      = 3.3E4          PHI     = 0.7582363          
++NQSMOD  = 0              WL      = 0              WLN     = 1                  
++WW      = 0              WWN     = 1              WWL     = 0                  
++LL      = 0              LLN     = 1              LW      = 0                  
++LWN     = 1              LWL     = 0              CAPMOD  = 2                  
++XPART   = 0              CGDO    = 2.028043E-9    CGSO    = 3.513386E-9        
++DLC     = 0              DWC     = 0               )                           
+*                                                                               
+* W=  889.0um L=    0.5um                                                           
+.MODEL SD5400CY NMOS (LEVEL   = 7
++TNOM    = 27             TOX     = 1E-7
++XJ      = 1.5E-7         NCH     = 1.7E17         VTH0    = 1.2233643          
++K1      = 2.4775913      K2      = -0.0339811     K3      = 80                 
++K3B     = 0              W0      = 2.5E-6         NLX     = 1.74E-7            
++DVT0W   = 0              DVT1W   = 0              DVT2W   = -0.032             
++DVT0    = 2.2            DVT1    = 0.53           DVT2    = -0.032             
++U0      = 542.6517258    UA      = 1E-8           UB      = 2E-18              
++UC      = 1.814396E-9    VSAT    = 8.8E4          A0      = 0.91               
++AGS     = 0              B0      = 0              B1      = 0                  
++KETA    = -0.047         A1      = 0              A2      = 1                  
++RDSW    = 6.5E3          PRWG    = 0              PRWB    = 0                  
++WR      = 1              WINT    = 0              LINT    = 0                  
++XL      = 0              XW      = 0              DWG     = 0                  
++DWB     = 0              VOFF    = -0.084672      NFACTOR = 0.2580035          
++CIT     = 0              CDSC    = 1.5E-4         CDSCD   = 0                  
++CDSCB   = 0              ETA0    = 1E-7           ETAB    = -0.07              
++DSUB    = 0.56           PCLM    = 0.134          PDIBLC1 = 5.934E-5           
++PDIBLC2 = 1.013829E-5    PDIBLCB = 0              DROUT   = 0.0106             
++PSCBE1  = 6.0357E8       PSCBE2  = 5E-6           PVAG    = 0.1405676          
++DELTA   = 0.159          MOBMOD  = 1              PRT     = 0                  
++UTE     = -1.5           KT1     = 0              KT1L    = 0                  
++KT2     = 0              UA1     = 4.31E-9        UB1     = -7.61E-18          
++UC1     = -5.6E-11       AT      = 3.3E4          PHI     = 0.7582363          
++NQSMOD  = 0              WL      = 0              WLN     = 1                  
++WW      = 0              WWN     = 1              WWL     = 0                  
++LL      = 0              LLN     = 1              LW      = 0                  
++LWN     = 1              LWL     = 0              CAPMOD  = 2                  
++XPART   = 0              CGDO    = 1.518931E-9    CGSO    = 3.115343E-9        
++DLC     = 0              DWC     = 0               )                           
+*
+* W=  889.0um L=    0.5um                                                           
+.MODEL SST211 NMOS (LEVEL   = 7
++TNOM    = 27             TOX     = 1E-7
++XJ      = 1.5E-7         NCH     = 1.7E17         VTH0    = 1.0941063          
++K1      = 2.4541877      K2      = -0.05          K3      = 80                 
++K3B     = 0              W0      = 2.5E-6         NLX     = 1.74E-7            
++DVT0W   = 0              DVT1W   = 0              DVT2W   = -0.032             
++DVT0    = 2.2            DVT1    = 0.53           DVT2    = -0.032             
++U0      = 537.6815365    UA      = 1E-8           UB      = 1.998E-18          
++UC      = 1.31205E-9     VSAT    = 8.8E4          A0      = 0.93               
++AGS     = 0              B0      = 0              B1      = 0                  
++KETA    = -0.047         A1      = 0              A2      = 1                  
++RDSW    = 4E3            PRWG    = 0              PRWB    = 0                  
++WR      = 1              WINT    = 0              LINT    = 0                  
++XL      = 0              XW      = 0              DWG     = 0                  
++DWB     = 0              VOFF    = -0.0593033     NFACTOR = 0.2282159          
++CIT     = 0              CDSC    = 1.5E-4         CDSCD   = 0                  
++CDSCB   = 0              ETA0    = 1E-7           ETAB    = -0.07              
++DSUB    = 0.56           PCLM    = 0.134          PDIBLC1 = 9.934E-5           
++PDIBLC2 = 1.013829E-3    PDIBLCB = 0              DROUT   = 0.01               
++PSCBE1  = 8.456E8        PSCBE2  = 3E-6           PVAG    = 0.1405676          
++DELTA   = 0.13           MOBMOD  = 1              PRT     = 0                  
++UTE     = -1.5           KT1     = 0              KT1L    = 0                  
++KT2     = 0              UA1     = 4.31E-9        UB1     = -7.61E-18          
++UC1     = -5.6E-11       AT      = 3.3E4          PHI     = 0.7582363          
++NQSMOD  = 0              WL      = 0              WLN     = 1                  
++WW      = 0              WWN     = 1              WWL     = 0                  
++LL      = 0              LLN     = 1              LW      = 0                  
++LWN     = 1              LWL     = 0              CAPMOD  = 2                  
++XPART   = 0              CGDO    = 1.91225E-9     CGSO    = 3.146805E-9        
++DLC     = 0              DWC     = 0               )                           
+*                                                                               
+* W=  889.0um L=    0.5um
+.MODEL SST213 NMOS (LEVEL   = 7
++TNOM    = 27             TOX     = 1E-7
++XJ      = 1.5E-7         NCH     = 1.7E17         VTH0    = 1.597067           
++K1      = 2.9972732      K2      = -0.05          K3      = 80                 
++K3B     = 0              W0      = 2.5E-6         NLX     = 1.74E-7            
++DVT0W   = 0              DVT1W   = 0              DVT2W   = -0.032             
++DVT0    = 2.2            DVT1    = 0.53           DVT2    = -0.032             
++U0      = 400.0382405    UA      = 7.155215E-9    UB      = 2E-18              
++UC      = -9.98582E-11   VSAT    = 8E4            A0      = 0.9                
++AGS     = 0              B0      = 0              B1      = 0                  
++KETA    = -0.047         A1      = 0              A2      = 1                  
++RDSW    = 4E3            PRWG    = 0              PRWB    = 0                  
++WR      = 1              WINT    = 0              LINT    = 0                  
++XL      = 0              XW      = 0              DWG     = 0                  
++DWB     = 0              VOFF    = -0.1619637     NFACTOR = 0.297              
++CIT     = 0              CDSC    = 1.5E-4         CDSCD   = 0                  
++CDSCB   = 0              ETA0    = 1E-7           ETAB    = -0.07              
++DSUB    = 0.56           PCLM    = 0.1534         PDIBLC1 = 9.934E-6           
++PDIBLC2 = 1.013829E-5    PDIBLCB = 0              DROUT   = 0.013              
++PSCBE1  = 3.835E8        PSCBE2  = 3E-6           PVAG    = 0.1405676          
++DELTA   = 0.1            MOBMOD  = 1              PRT     = 0                  
++UTE     = -1.5           KT1     = 0              KT1L    = 0                  
++KT2     = 0              UA1     = 4.31E-9        UB1     = -7.61E-18          
++UC1     = -5.6E-11       AT      = 3.3E4          PHI     = 0.7582363          
++NQSMOD  = 0              WL      = 0              WLN     = 1                  
++WW      = 0              WWN     = 1              WWL     = 0                  
++LL      = 0              LLN     = 1              LW      = 0                  
++LWN     = 1              LWL     = 0              CAPMOD  = 2                  
++XPART   = 0              CGDO    = 1.91225E-9     CGSO    = 3.146805E-9        
++DLC     = 0              DWC     = 0               )                           
+*                                                                               
+* W=  889.0um L=    0.5um                                                           
+.MODEL SST215 NMOS (LEVEL   = 7
++TNOM    = 27             TOX     = 1E-7
++XJ      = 1.5E-7         NCH     = 1.7E17         VTH0    = 1.2174217          
++K1      = 2.4401368      K2      = -4.972937E-5   K3      = 80                 
++K3B     = 0              W0      = 2.5E-6         NLX     = 1.74E-7            
++DVT0W   = 0              DVT1W   = 0              DVT2W   = -0.032             
++DVT0    = 2.2            DVT1    = 0.53           DVT2    = -0.032             
++U0      = 529.2893565    UA      = 1E-8           UB      = 1.998523E-18       
++UC      = 2.957032E-9    VSAT    = 8.4E4          A0      = 0.9                
++AGS     = 0              B0      = 0              B1      = 0                  
++KETA    = -0.047         A1      = 0              A2      = 1                  
++RDSW    = 4E3            PRWG    = 0              PRWB    = 0                  
++WR      = 1              WINT    = 0              LINT    = 0                  
++XL      = 0              XW      = 0              DWG     = 0                  
++DWB     = 0              VOFF    = -0.0727002     NFACTOR = 0.2550633          
++CIT     = 0              CDSC    = 1.5E-4         CDSCD   = 0                  
++CDSCB   = 0              ETA0    = 1E-7           ETAB    = -0.07              
++DSUB    = 0.56           PCLM    = 0.1345         PDIBLC1 = 9.240478E-5        
++PDIBLC2 = 2.2345E-4      PDIBLCB = 0              DROUT   = 0.01               
++PSCBE1  = 6.835E8        PSCBE2  = 3E-6           PVAG    = 0
++DELTA   = 0.180049       MOBMOD  = 1              PRT     = 0                  
++UTE     = -1.5           KT1     = 0              KT1L    = 0                  
++KT2     = 0              UA1     = 4.31E-9        UB1     = -7.61E-18          
++UC1     = -5.6E-11       AT      = 3.3E4          PHI     = 0.7582363          
++NQSMOD  = 0              WL      = 0              WLN     = 1                  
++WW      = 0              WWN     = 1              WWL     = 0                  
++LL      = 0              LLN     = 1              LW      = 0                  
++LWN     = 1              LWL     = 0              CAPMOD  = 2                  
++XPART   = 0              CGDO    = 1.714927E-9    CGSO    = 3.390787E-9        
++DLC     = 0              DWC     = 0               )

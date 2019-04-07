@@ -1,0 +1,4 @@
+.model 2SJ103Y PJF(beta=1.053m vto=-1.342 is=1n cgd=8.0445p cgs=4.9555p lambda=34.8 )
+.model 2SJ103GR PJF(beta=2.283m vto=-1.342 is=1n cgd=8.0445p cgs=4.9555p lambda=16 )
+.model 2SJ103BL PJF(beta=5.092m vto=-1.342 is=1n cgd=8.0445p cgs=4.9555p lambda=7.2 )
+

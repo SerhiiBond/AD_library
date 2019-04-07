@@ -1,0 +1,336 @@
+*.model TIP29 ako:NSC_4F NPN() ; case TO-220
+.MODEL TIP29 NPN(Is=2.447p Xti=3 Eg=1.11 Vaf=100 Bf=208.2 Ise=70.69p
++ Ne=1.565 Ikf=.9743 Nk=.6134 Xtb=1.5 Br=12.59 Isc=11.68n
++ Nc=1.835 Ikr=3.86 Rc=.4685 Cjc=142p Mjc=.4353 Vjc=.75 Fc=.5
++ Cje=188.5p Mje=.4878 Vje=.75 Tr=194.2n Tf=19.85n Itf=164.1
++ Xtf=5.945 Vtf=10 Rb=.1)
+*$
+*.model TIP29A ako:NSC_4F NPN() ; case TO-220
+.MODEL TIP29A NPN(Is=2.447p Xti=3 Eg=1.11 Vaf=100 Bf=208.2 Ise=70.69p
++ Ne=1.565 Ikf=.9743 Nk=.6134 Xtb=1.5 Br=12.59 Isc=11.68n
++ Nc=1.835 Ikr=3.86 Rc=.4685 Cjc=142p Mjc=.4353 Vjc=.75 Fc=.5
++ Cje=188.5p Mje=.4878 Vje=.75 Tr=194.2n Tf=19.85n Itf=164.1
++ Xtf=5.945 Vtf=10 Rb=.1)
+*$
+*.model TIP29B ako:NSC_4F NPN() ; case TO-220
+.MODEL TIP29B NPN(Is=2.447p Xti=3 Eg=1.11 Vaf=100 Bf=208.2 Ise=70.69p
++ Ne=1.565 Ikf=.9743 Nk=.6134 Xtb=1.5 Br=12.59 Isc=11.68n
++ Nc=1.835 Ikr=3.86 Rc=.4685 Cjc=142p Mjc=.4353 Vjc=.75 Fc=.5
++ Cje=188.5p Mje=.4878 Vje=.75 Tr=194.2n Tf=19.85n Itf=164.1
++ Xtf=5.945 Vtf=10 Rb=.1)
+*$
+*.model TIP29C ako:NSC_4F NPN() ; case TO-220
+.MODEL TIP29C NPN(Is=2.447p Xti=3 Eg=1.11 Vaf=100 Bf=208.2 Ise=70.69p
++ Ne=1.565 Ikf=.9743 Nk=.6134 Xtb=1.5 Br=12.59 Isc=11.68n
++ Nc=1.835 Ikr=3.86 Rc=.4685 Cjc=142p Mjc=.4353 Vjc=.75 Fc=.5
++ Cje=188.5p Mje=.4878 Vje=.75 Tr=194.2n Tf=19.85n Itf=164.1
++ Xtf=5.945 Vtf=10 Rb=.1)
+*$
+*.model TIP30 ako:NSC_5F PNP() ; case TO-220
+.MODEL TIP30 PNP(Is=51.23f Xti=3 Eg=1.11 Vaf=100 Bf=434.1 Ise=51.23f Ne=1.22
++ Ikf=.3883 Nk=.5544 Xtb=2.2 Br=55.47 Isc=51.23f Nc=1.205
++ Ikr=10.87 Rc=.3443 Cjc=136.9p Mjc=.3155 Vjc=.75 Fc=.5
++ Cje=179.9p Mje=.4294 Vje=.75 Tr=20.25n Tf=13.05n Itf=6.85
++ Xtf=1.573 Vtf=10 Rb=.1)
+*$
+*.model TIP30A ako:NSC_5F PNP() ; case TO-220
+.MODEL TIP30A PNP(Is=51.23f Xti=3 Eg=1.11 Vaf=100 Bf=434.1 Ise=51.23f Ne=1.22
++ Ikf=.3883 Nk=.5544 Xtb=2.2 Br=55.47 Isc=51.23f Nc=1.205
++ Ikr=10.87 Rc=.3443 Cjc=136.9p Mjc=.3155 Vjc=.75 Fc=.5
++ Cje=179.9p Mje=.4294 Vje=.75 Tr=20.25n Tf=13.05n Itf=6.85
++ Xtf=1.573 Vtf=10 Rb=.1)
+*$
+*.model TIP30B ako:NSC_5F PNP() ; case TO-220
+.MODEL TIP30B PNP(Is=51.23f Xti=3 Eg=1.11 Vaf=100 Bf=434.1 Ise=51.23f Ne=1.22
++ Ikf=.3883 Nk=.5544 Xtb=2.2 Br=55.47 Isc=51.23f Nc=1.205
++ Ikr=10.87 Rc=.3443 Cjc=136.9p Mjc=.3155 Vjc=.75 Fc=.5
++ Cje=179.9p Mje=.4294 Vje=.75 Tr=20.25n Tf=13.05n Itf=6.85
++ Xtf=1.573 Vtf=10 Rb=.1)
+*$
+*.model TIP30C ako:NSC_5F PNP() ; case TO-220
+.MODEL TIP30C PNP(Is=51.23f Xti=3 Eg=1.11 Vaf=100 Bf=434.1 Ise=51.23f Ne=1.22
++ Ikf=.3883 Nk=.5544 Xtb=2.2 Br=55.47 Isc=51.23f Nc=1.205
++ Ikr=10.87 Rc=.3443 Cjc=136.9p Mjc=.3155 Vjc=.75 Fc=.5
++ Cje=179.9p Mje=.4294 Vje=.75 Tr=20.25n Tf=13.05n Itf=6.85
++ Xtf=1.573 Vtf=10 Rb=.1)
+*$
+*.model TIP31 ako:NSC_4F NPN() ; case TO-220
+.MODEL TIP31 NPN(Is=2.447p Xti=3 Eg=1.11 Vaf=100 Bf=208.2 Ise=70.69p
++ Ne=1.565 Ikf=.9743 Nk=.6134 Xtb=1.5 Br=12.59 Isc=11.68n
++ Nc=1.835 Ikr=3.86 Rc=.4685 Cjc=142p Mjc=.4353 Vjc=.75 Fc=.5
++ Cje=188.5p Mje=.4878 Vje=.75 Tr=194.2n Tf=19.85n Itf=164.1
++ Xtf=5.945 Vtf=10 Rb=.1)
+*$
+*.model TIP31A ako:NSC_4F NPN() ; case TO-220
+.MODEL TIP31A NPN(Is=2.447p Xti=3 Eg=1.11 Vaf=100 Bf=208.2 Ise=70.69p
++ Ne=1.565 Ikf=.9743 Nk=.6134 Xtb=1.5 Br=12.59 Isc=11.68n
++ Nc=1.835 Ikr=3.86 Rc=.4685 Cjc=142p Mjc=.4353 Vjc=.75 Fc=.5
++ Cje=188.5p Mje=.4878 Vje=.75 Tr=194.2n Tf=19.85n Itf=164.1
++ Xtf=5.945 Vtf=10 Rb=.1)
+*$
+*.model TIP31B ako:NSC_4F NPN() ; case TO-220
+.MODEL TIP31B NPN(Is=2.447p Xti=3 Eg=1.11 Vaf=100 Bf=208.2 Ise=70.69p
++ Ne=1.565 Ikf=.9743 Nk=.6134 Xtb=1.5 Br=12.59 Isc=11.68n
++ Nc=1.835 Ikr=3.86 Rc=.4685 Cjc=142p Mjc=.4353 Vjc=.75 Fc=.5
++ Cje=188.5p Mje=.4878 Vje=.75 Tr=194.2n Tf=19.85n Itf=164.1
++ Xtf=5.945 Vtf=10 Rb=.1)
+*$
+*.model TIP31C ako:NSC_4F NPN() ; case TO-220
+.MODEL TIP31C NPN(Is=2.447p Xti=3 Eg=1.11 Vaf=100 Bf=208.2 Ise=70.69p
++ Ne=1.565 Ikf=.9743 Nk=.6134 Xtb=1.5 Br=12.59 Isc=11.68n
++ Nc=1.835 Ikr=3.86 Rc=.4685 Cjc=142p Mjc=.4353 Vjc=.75 Fc=.5
++ Cje=188.5p Mje=.4878 Vje=.75 Tr=194.2n Tf=19.85n Itf=164.1
++ Xtf=5.945 Vtf=10 Rb=.1)
+*$
+*.model TIP32 ako:NSC_5F PNP() ; case TO-220
+.MODEL TIP32 PNP(Is=51.23f Xti=3 Eg=1.11 Vaf=100 Bf=434.1 Ise=51.23f Ne=1.22
++ Ikf=.3883 Nk=.5544 Xtb=2.2 Br=55.47 Isc=51.23f Nc=1.205
++ Ikr=10.87 Rc=.3443 Cjc=136.9p Mjc=.3155 Vjc=.75 Fc=.5
++ Cje=179.9p Mje=.4294 Vje=.75 Tr=20.25n Tf=13.05n Itf=6.85
++ Xtf=1.573 Vtf=10 Rb=.1)
+*$
+*.model TIP32A ako:NSC_5F PNP() ; case TO-220
+.MODEL TIP32A PNP(Is=51.23f Xti=3 Eg=1.11 Vaf=100 Bf=434.1 Ise=51.23f Ne=1.22
++ Ikf=.3883 Nk=.5544 Xtb=2.2 Br=55.47 Isc=51.23f Nc=1.205
++ Ikr=10.87 Rc=.3443 Cjc=136.9p Mjc=.3155 Vjc=.75 Fc=.5
++ Cje=179.9p Mje=.4294 Vje=.75 Tr=20.25n Tf=13.05n Itf=6.85
++ Xtf=1.573 Vtf=10 Rb=.1)
+*$
+*.model TIP32B ako:NSC_5F PNP() ; case TO-220
+.MODEL TIP32B PNP(Is=51.23f Xti=3 Eg=1.11 Vaf=100 Bf=434.1 Ise=51.23f Ne=1.22
++ Ikf=.3883 Nk=.5544 Xtb=2.2 Br=55.47 Isc=51.23f Nc=1.205
++ Ikr=10.87 Rc=.3443 Cjc=136.9p Mjc=.3155 Vjc=.75 Fc=.5
++ Cje=179.9p Mje=.4294 Vje=.75 Tr=20.25n Tf=13.05n Itf=6.85
++ Xtf=1.573 Vtf=10 Rb=.1)
+*$
+*.model TIP32C ako:NSC_5F PNP() ; case TO-220
+.MODEL TIP32C PNP(Is=51.23f Xti=3 Eg=1.11 Vaf=100 Bf=434.1 Ise=51.23f Ne=1.22
++ Ikf=.3883 Nk=.5544 Xtb=2.2 Br=55.47 Isc=51.23f Nc=1.205
++ Ikr=10.87 Rc=.3443 Cjc=136.9p Mjc=.3155 Vjc=.75 Fc=.5
++ Cje=179.9p Mje=.4294 Vje=.75 Tr=20.25n Tf=13.05n Itf=6.85
++ Xtf=1.573 Vtf=10 Rb=.1)
+*$
+*.model TIP33 ako:NSC_4A NPN() ; case TO-220 (s)
+.MODEL TIP33 NPN(Is=457.5f Xti=3 Eg=1.11 Vaf=50 Bf=156.7 Ise=1.346p Ne=1.34
++ Ikf=3.296 Nk=.5961 Xtb=2.2 Br=7.639 Isc=604.1f Nc=2.168
++ Ikr=8.131m Rc=91.29m Cjc=278.7p Mjc=.385 Vjc=.75 Fc=.5 Cje=433p
++ Mje=.5 Vje=.75 Tr=1.412u Tf=37.34n Itf=35.68 Xtf=1.163 Vtf=10
++ Rb=.1)
+*$
+*.model TIP33A ako:NSC_4A NPN() ; case TO-220 (s)
+.MODEL TIP33A NPN(Is=457.5f Xti=3 Eg=1.11 Vaf=50 Bf=156.7 Ise=1.346p Ne=1.34
++ Ikf=3.296 Nk=.5961 Xtb=2.2 Br=7.639 Isc=604.1f Nc=2.168
++ Ikr=8.131m Rc=91.29m Cjc=278.7p Mjc=.385 Vjc=.75 Fc=.5 Cje=433p
++ Mje=.5 Vje=.75 Tr=1.412u Tf=37.34n Itf=35.68 Xtf=1.163 Vtf=10
++ Rb=.1)
+*$
+*.model TIP33B ako:NSC_4A NPN() ; case TO-220 (s)
+.MODEL TIP33B NPN(Is=457.5f Xti=3 Eg=1.11 Vaf=50 Bf=156.7 Ise=1.346p Ne=1.34
++ Ikf=3.296 Nk=.5961 Xtb=2.2 Br=7.639 Isc=604.1f Nc=2.168
++ Ikr=8.131m Rc=91.29m Cjc=278.7p Mjc=.385 Vjc=.75 Fc=.5 Cje=433p
++ Mje=.5 Vje=.75 Tr=1.412u Tf=37.34n Itf=35.68 Xtf=1.163 Vtf=10
++ Rb=.1)
+*$
+*.model TIP33C ako:NSC_4A NPN() ; case TO-220 (s)
+.MODEL TIP33C NPN(Is=457.5f Xti=3 Eg=1.11 Vaf=50 Bf=156.7 Ise=1.346p Ne=1.34
++ Ikf=3.296 Nk=.5961 Xtb=2.2 Br=7.639 Isc=604.1f Nc=2.168
++ Ikr=8.131m Rc=91.29m Cjc=278.7p Mjc=.385 Vjc=.75 Fc=.5 Cje=433p
++ Mje=.5 Vje=.75 Tr=1.412u Tf=37.34n Itf=35.68 Xtf=1.163 Vtf=10
++ Rb=.1)
+*$
+*.model TIP34 ako:NSC_5A PNP() ; case TO-220 (s)
+.MODEL TIP34 PNP(Is=66.19f Xti=3 Eg=1.11 Vaf=100 Bf=137.6 Ise=862.2f
++ Ne=1.481 Ikf=1.642 Nk=.5695 Xtb=2 Br=5.88 Isc=273.5f Nc=1.24
++ Ikr=3.555 Rc=79.39m Cjc=870.4p Mjc=.6481 Vjc=.75 Fc=.5
++ Cje=390.1p Mje=.4343 Vje=.75 Tr=235.4n Tf=23.21n Itf=71.33
++ Xtf=5.982 Vtf=10 Rb=.1)
+*$
+*.model TIP34A ako:NSC_5A PNP() ; case TO-220 (s)
+.MODEL TIP34A PNP(Is=66.19f Xti=3 Eg=1.11 Vaf=100 Bf=137.6 Ise=862.2f
++ Ne=1.481 Ikf=1.642 Nk=.5695 Xtb=2 Br=5.88 Isc=273.5f Nc=1.24
++ Ikr=3.555 Rc=79.39m Cjc=870.4p Mjc=.6481 Vjc=.75 Fc=.5
++ Cje=390.1p Mje=.4343 Vje=.75 Tr=235.4n Tf=23.21n Itf=71.33
++ Xtf=5.982 Vtf=10 Rb=.1)
+*$
+*.model TIP34B ako:NSC_5A PNP() ; case TO-220 (s)
+.MODEL TIP34B PNP(Is=66.19f Xti=3 Eg=1.11 Vaf=100 Bf=137.6 Ise=862.2f
++ Ne=1.481 Ikf=1.642 Nk=.5695 Xtb=2 Br=5.88 Isc=273.5f Nc=1.24
++ Ikr=3.555 Rc=79.39m Cjc=870.4p Mjc=.6481 Vjc=.75 Fc=.5
++ Cje=390.1p Mje=.4343 Vje=.75 Tr=235.4n Tf=23.21n Itf=71.33
++ Xtf=5.982 Vtf=10 Rb=.1)
+*$
+*.model TIP34C ako:NSC_5A PNP() ; case TO-220 (s)
+.MODEL TIP34C PNP(Is=66.19f Xti=3 Eg=1.11 Vaf=100 Bf=137.6 Ise=862.2f
++ Ne=1.481 Ikf=1.642 Nk=.5695 Xtb=2 Br=5.88 Isc=273.5f Nc=1.24
++ Ikr=3.555 Rc=79.39m Cjc=870.4p Mjc=.6481 Vjc=.75 Fc=.5
++ Cje=390.1p Mje=.4343 Vje=.75 Tr=235.4n Tf=23.21n Itf=71.33
++ Xtf=5.982 Vtf=10 Rb=.1)
+*$
+*.model TIP41 ako:NSC_4A NPN() ; case TO-220
+.MODEL TIP41 NPN(Is=457.5f Xti=3 Eg=1.11 Vaf=50 Bf=156.7 Ise=1.346p Ne=1.34
++ Ikf=3.296 Nk=.5961 Xtb=2.2 Br=7.639 Isc=604.1f Nc=2.168
++ Ikr=8.131m Rc=91.29m Cjc=278.7p Mjc=.385 Vjc=.75 Fc=.5 Cje=433p
++ Mje=.5 Vje=.75 Tr=1.412u Tf=37.34n Itf=35.68 Xtf=1.163 Vtf=10
++ Rb=.1)
+*$
+*.model TIP41A ako:NSC_4A NPN() ; case TO-220
+.MODEL TIP41A NPN(Is=457.5f Xti=3 Eg=1.11 Vaf=50 Bf=156.7 Ise=1.346p Ne=1.34
++ Ikf=3.296 Nk=.5961 Xtb=2.2 Br=7.639 Isc=604.1f Nc=2.168
++ Ikr=8.131m Rc=91.29m Cjc=278.7p Mjc=.385 Vjc=.75 Fc=.5 Cje=433p
++ Mje=.5 Vje=.75 Tr=1.412u Tf=37.34n Itf=35.68 Xtf=1.163 Vtf=10
++ Rb=.1)
+*$
+*.model TIP41B ako:NSC_4A NPN() ; case TO-220
+.MODEL TIP41B NPN(Is=457.5f Xti=3 Eg=1.11 Vaf=50 Bf=156.7 Ise=1.346p Ne=1.34
++ Ikf=3.296 Nk=.5961 Xtb=2.2 Br=7.639 Isc=604.1f Nc=2.168
++ Ikr=8.131m Rc=91.29m Cjc=278.7p Mjc=.385 Vjc=.75 Fc=.5 Cje=433p
++ Mje=.5 Vje=.75 Tr=1.412u Tf=37.34n Itf=35.68 Xtf=1.163 Vtf=10
++ Rb=.1)
+*$
+*.model TIP41C ako:NSC_4A NPN() ; case TO-220
+.MODEL TIP41C NPN(Is=457.5f Xti=3 Eg=1.11 Vaf=50 Bf=156.7 Ise=1.346p Ne=1.34
++ Ikf=3.296 Nk=.5961 Xtb=2.2 Br=7.639 Isc=604.1f Nc=2.168
++ Ikr=8.131m Rc=91.29m Cjc=278.7p Mjc=.385 Vjc=.75 Fc=.5 Cje=433p
++ Mje=.5 Vje=.75 Tr=1.412u Tf=37.34n Itf=35.68 Xtf=1.163 Vtf=10
++ Rb=.1)
+*$
+*.model TIP42 ako:NSC_5A PNP() ; case TO-220
+.MODEL TIP42 PNP(Is=66.19f Xti=3 Eg=1.11 Vaf=100 Bf=137.6 Ise=862.2f
++ Ne=1.481 Ikf=1.642 Nk=.5695 Xtb=2 Br=5.88 Isc=273.5f Nc=1.24
++ Ikr=3.555 Rc=79.39m Cjc=870.4p Mjc=.6481 Vjc=.75 Fc=.5
++ Cje=390.1p Mje=.4343 Vje=.75 Tr=235.4n Tf=23.21n Itf=71.33
++ Xtf=5.982 Vtf=10 Rb=.1)
+*$
+*.model TIP42A ako:NSC_5A PNP() ; case TO-220
+.MODEL TIP42A PNP(Is=66.19f Xti=3 Eg=1.11 Vaf=100 Bf=137.6 Ise=862.2f
++ Ne=1.481 Ikf=1.642 Nk=.5695 Xtb=2 Br=5.88 Isc=273.5f Nc=1.24
++ Ikr=3.555 Rc=79.39m Cjc=870.4p Mjc=.6481 Vjc=.75 Fc=.5
++ Cje=390.1p Mje=.4343 Vje=.75 Tr=235.4n Tf=23.21n Itf=71.33
++ Xtf=5.982 Vtf=10 Rb=.1)
+*$
+*.model TIP42B ako:NSC_5A PNP() ; case TO-220
+.MODEL TIP42B PNP(Is=66.19f Xti=3 Eg=1.11 Vaf=100 Bf=137.6 Ise=862.2f
++ Ne=1.481 Ikf=1.642 Nk=.5695 Xtb=2 Br=5.88 Isc=273.5f Nc=1.24
++ Ikr=3.555 Rc=79.39m Cjc=870.4p Mjc=.6481 Vjc=.75 Fc=.5
++ Cje=390.1p Mje=.4343 Vje=.75 Tr=235.4n Tf=23.21n Itf=71.33
++ Xtf=5.982 Vtf=10 Rb=.1)
+*$
+*.model TIP42C ako:NSC_5A PNP() ; case TO-220
+.MODEL TIP42C PNP(Is=66.19f Xti=3 Eg=1.11 Vaf=100 Bf=137.6 Ise=862.2f
++ Ne=1.481 Ikf=1.642 Nk=.5695 Xtb=2 Br=5.88 Isc=273.5f Nc=1.24
++ Ikr=3.555 Rc=79.39m Cjc=870.4p Mjc=.6481 Vjc=.75 Fc=.5
++ Cje=390.1p Mje=.4343 Vje=.75 Tr=235.4n Tf=23.21n Itf=71.33
++ Xtf=5.982 Vtf=10 Rb=.1)
+*$
+*.model TIP61 ako:NSC_4F NPN() ; case TO-220
+.MODEL TIP61 NPN(Is=2.447p Xti=3 Eg=1.11 Vaf=100 Bf=208.2 Ise=70.69p
++ Ne=1.565 Ikf=.9743 Nk=.6134 Xtb=1.5 Br=12.59 Isc=11.68n
++ Nc=1.835 Ikr=3.86 Rc=.4685 Cjc=142p Mjc=.4353 Vjc=.75 Fc=.5
++ Cje=188.5p Mje=.4878 Vje=.75 Tr=194.2n Tf=19.85n Itf=164.1
++ Xtf=5.945 Vtf=10 Rb=.1)
+*$
+*.model TIP61A ako:NSC_4F NPN() ; case TO-220
+.MODEL TIP61A NPN(Is=2.447p Xti=3 Eg=1.11 Vaf=100 Bf=208.2 Ise=70.69p
++ Ne=1.565 Ikf=.9743 Nk=.6134 Xtb=1.5 Br=12.59 Isc=11.68n
++ Nc=1.835 Ikr=3.86 Rc=.4685 Cjc=142p Mjc=.4353 Vjc=.75 Fc=.5
++ Cje=188.5p Mje=.4878 Vje=.75 Tr=194.2n Tf=19.85n Itf=164.1
++ Xtf=5.945 Vtf=10 Rb=.1)
+*$
+*.model TIP61B ako:NSC_4F NPN() ; case TO-220
+.MODEL TIP61B NPN(Is=2.447p Xti=3 Eg=1.11 Vaf=100 Bf=208.2 Ise=70.69p
++ Ne=1.565 Ikf=.9743 Nk=.6134 Xtb=1.5 Br=12.59 Isc=11.68n
++ Nc=1.835 Ikr=3.86 Rc=.4685 Cjc=142p Mjc=.4353 Vjc=.75 Fc=.5
++ Cje=188.5p Mje=.4878 Vje=.75 Tr=194.2n Tf=19.85n Itf=164.1
++ Xtf=5.945 Vtf=10 Rb=.1)
+*$
+*.model TIP61C ako:NSC_4F NPN() ; case TO-220
+.MODEL TIP61C NPN(Is=2.447p Xti=3 Eg=1.11 Vaf=100 Bf=208.2 Ise=70.69p
++ Ne=1.565 Ikf=.9743 Nk=.6134 Xtb=1.5 Br=12.59 Isc=11.68n
++ Nc=1.835 Ikr=3.86 Rc=.4685 Cjc=142p Mjc=.4353 Vjc=.75 Fc=.5
++ Cje=188.5p Mje=.4878 Vje=.75 Tr=194.2n Tf=19.85n Itf=164.1
++ Xtf=5.945 Vtf=10 Rb=.1)
+*$
+*.model TIP62 ako:NSC_5F PNP() ; case TO-220
+.MODEL TIP62 PNP(Is=51.23f Xti=3 Eg=1.11 Vaf=100 Bf=434.1 Ise=51.23f Ne=1.22
++ Ikf=.3883 Nk=.5544 Xtb=2.2 Br=55.47 Isc=51.23f Nc=1.205
++ Ikr=10.87 Rc=.3443 Cjc=136.9p Mjc=.3155 Vjc=.75 Fc=.5
++ Cje=179.9p Mje=.4294 Vje=.75 Tr=20.25n Tf=13.05n Itf=6.85
++ Xtf=1.573 Vtf=10 Rb=.1)
+*$
+*.model TIP62A ako:NSC_5F PNP() ; case TO-220
+.MODEL TIP62A PNP(Is=51.23f Xti=3 Eg=1.11 Vaf=100 Bf=434.1 Ise=51.23f Ne=1.22
++ Ikf=.3883 Nk=.5544 Xtb=2.2 Br=55.47 Isc=51.23f Nc=1.205
++ Ikr=10.87 Rc=.3443 Cjc=136.9p Mjc=.3155 Vjc=.75 Fc=.5
++ Cje=179.9p Mje=.4294 Vje=.75 Tr=20.25n Tf=13.05n Itf=6.85
++ Xtf=1.573 Vtf=10 Rb=.1)
+*$
+*.model TIP62B ako:NSC_5F PNP() ; case TO-220
+.MODEL TIP62B PNP(Is=51.23f Xti=3 Eg=1.11 Vaf=100 Bf=434.1 Ise=51.23f Ne=1.22
++ Ikf=.3883 Nk=.5544 Xtb=2.2 Br=55.47 Isc=51.23f Nc=1.205
++ Ikr=10.87 Rc=.3443 Cjc=136.9p Mjc=.3155 Vjc=.75 Fc=.5
++ Cje=179.9p Mje=.4294 Vje=.75 Tr=20.25n Tf=13.05n Itf=6.85
++ Xtf=1.573 Vtf=10 Rb=.1)
+*$
+*.model TIP62C ako:NSC_5F PNP() ; case TO-220
+.MODEL TIP62C PNP(Is=51.23f Xti=3 Eg=1.11 Vaf=100 Bf=434.1 Ise=51.23f Ne=1.22
++ Ikf=.3883 Nk=.5544 Xtb=2.2 Br=55.47 Isc=51.23f Nc=1.205
++ Ikr=10.87 Rc=.3443 Cjc=136.9p Mjc=.3155 Vjc=.75 Fc=.5
++ Cje=179.9p Mje=.4294 Vje=.75 Tr=20.25n Tf=13.05n Itf=6.85
++ Xtf=1.573 Vtf=10 Rb=.1)
+*$
+*.model TIP73 ako:NSC_4A NPN() ; case TO-220 (s)
+.MODEL TIP73 NPN(Is=457.5f Xti=3 Eg=1.11 Vaf=50 Bf=156.7 Ise=1.346p Ne=1.34
++ Ikf=3.296 Nk=.5961 Xtb=2.2 Br=7.639 Isc=604.1f Nc=2.168
++ Ikr=8.131m Rc=91.29m Cjc=278.7p Mjc=.385 Vjc=.75 Fc=.5 Cje=433p
++ Mje=.5 Vje=.75 Tr=1.412u Tf=37.34n Itf=35.68 Xtf=1.163 Vtf=10
++ Rb=.1)
+*$
+*.model TIP73A ako:NSC_4A NPN() ; case TO-220 (s)
+.MODEL TIP73A NPN(Is=457.5f Xti=3 Eg=1.11 Vaf=50 Bf=156.7 Ise=1.346p Ne=1.34
++ Ikf=3.296 Nk=.5961 Xtb=2.2 Br=7.639 Isc=604.1f Nc=2.168
++ Ikr=8.131m Rc=91.29m Cjc=278.7p Mjc=.385 Vjc=.75 Fc=.5 Cje=433p
++ Mje=.5 Vje=.75 Tr=1.412u Tf=37.34n Itf=35.68 Xtf=1.163 Vtf=10
++ Rb=.1)
+*$
+*.model TIP73B ako:NSC_4A NPN() ; case TO-220 (s)
+.MODEL TIP73B NPN(Is=457.5f Xti=3 Eg=1.11 Vaf=50 Bf=156.7 Ise=1.346p Ne=1.34
++ Ikf=3.296 Nk=.5961 Xtb=2.2 Br=7.639 Isc=604.1f Nc=2.168
++ Ikr=8.131m Rc=91.29m Cjc=278.7p Mjc=.385 Vjc=.75 Fc=.5 Cje=433p
++ Mje=.5 Vje=.75 Tr=1.412u Tf=37.34n Itf=35.68 Xtf=1.163 Vtf=10
++ Rb=.1)
+*$
+*.model TIP74 ako:NSC_5A PNP() ; case TO-220 (s)
+.MODEL TIP74 PNP(Is=66.19f Xti=3 Eg=1.11 Vaf=100 Bf=137.6 Ise=862.2f
++ Ne=1.481 Ikf=1.642 Nk=.5695 Xtb=2 Br=5.88 Isc=273.5f Nc=1.24
++ Ikr=3.555 Rc=79.39m Cjc=870.4p Mjc=.6481 Vjc=.75 Fc=.5
++ Cje=390.1p Mje=.4343 Vje=.75 Tr=235.4n Tf=23.21n Itf=71.33
++ Xtf=5.982 Vtf=10 Rb=.1)
+*$
+*.model TIP74A ako:NSC_5A PNP() ; case TO-220 (s)
+.MODEL TIP74A PNP(Is=66.19f Xti=3 Eg=1.11 Vaf=100 Bf=137.6 Ise=862.2f
++ Ne=1.481 Ikf=1.642 Nk=.5695 Xtb=2 Br=5.88 Isc=273.5f Nc=1.24
++ Ikr=3.555 Rc=79.39m Cjc=870.4p Mjc=.6481 Vjc=.75 Fc=.5
++ Cje=390.1p Mje=.4343 Vje=.75 Tr=235.4n Tf=23.21n Itf=71.33
++ Xtf=5.982 Vtf=10 Rb=.1)
+*$
+*.model TIP74B ako:NSC_5A PNP() ; case TO-220 (s)
+.MODEL TIP74B PNP(Is=66.19f Xti=3 Eg=1.11 Vaf=100 Bf=137.6 Ise=862.2f
++ Ne=1.481 Ikf=1.642 Nk=.5695 Xtb=2 Br=5.88 Isc=273.5f Nc=1.24
++ Ikr=3.555 Rc=79.39m Cjc=870.4p Mjc=.6481 Vjc=.75 Fc=.5
++ Cje=390.1p Mje=.4343 Vje=.75 Tr=235.4n Tf=23.21n Itf=71.33
++ Xtf=5.982 Vtf=10 Rb=.1)
+*$
+*.model TIP2955 ako:NSC_5A PNP() ; case TO-220 (s)
+.MODEL TIP2955 PNP(Is=66.19f Xti=3 Eg=1.11 Vaf=100 Bf=137.6 Ise=862.2f
++ Ne=1.481 Ikf=1.642 Nk=.5695 Xtb=2 Br=5.88 Isc=273.5f Nc=1.24
++ Ikr=3.555 Rc=79.39m Cjc=870.4p Mjc=.6481 Vjc=.75 Fc=.5
++ Cje=390.1p Mje=.4343 Vje=.75 Tr=235.4n Tf=23.21n Itf=71.33
++ Xtf=5.982 Vtf=10 Rb=.1)
+*$
+*.model TIP3055 ako:NSC_4A NPN() ; case TO-220 (s)
+.MODEL TIP3055 NPN(Is=457.5f Xti=3 Eg=1.11 Vaf=50 Bf=156.7 Ise=1.346p Ne=1.34
++ Ikf=3.296 Nk=.5961 Xtb=2.2 Br=7.639 Isc=604.1f Nc=2.168
++ Ikr=8.131m Rc=91.29m Cjc=278.7p Mjc=.385 Vjc=.75 Fc=.5 Cje=433p
++ Mje=.5 Vje=.75 Tr=1.412u Tf=37.34n Itf=35.68 Xtf=1.163 Vtf=10
++ Rb=.1)
+*$

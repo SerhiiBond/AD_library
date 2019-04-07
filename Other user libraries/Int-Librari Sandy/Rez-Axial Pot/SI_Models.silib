@@ -1,0 +1,357 @@
+@IDBM:ABT_000_S0_in.mac
+###############################################################################
+#  Header     : 1.0;
+#  Filename   : ABT_000_S0_in.mac;
+#  FileRev    : 2.0;
+#  Date       : 02/03/1997;
+#  Permission : ;
+#  Simulator  : 2;
+#  Modeltype  : 0;
+#  Technology : ABT;
+#  Changes    : None;
+#  Notes      : generated for TI SN74ABT240 and comparable unidirectional
+#		buffers of technology ABT, VCC = 5V, GND clamping diodes;
+#
+#  RefSource
+#     Component     : SN74ABT240;
+#     Manufacturer  : TI;
+#     Buffername    : INBUF;
+#     Buffertype    : IN;
+#     Pins          : Inputs;
+#     Method        : Measurement;
+#     Copyright     : None;
+#     Disclaimer    : None;
+#     Notes         : GND Clamping Diodes;
+#
+#  RefCondition
+#     Process       : Typical;
+#     Temperature   : 25;
+#     SupplyVolt    : 5.000;
+#     RefVolt       : None;
+#     GndPackage    : Implicit;
+#     VccPackage    : Implicit;
+#     SigPackage    : Implicit;
+#     TermLineImp   : 50.000;
+#     TermLineDelay : 5.000e-09;
+#     Notes         : None;
+#
+#  
+#  LinearModel                  
+#     Resistance    : 1e6;
+#     Capacitance   : 4e-12;
+#     Inductance    : None;
+#     GndClamp      : None;
+#     PowClamp      : None;
+#     Notes         : None;
+#  
+###############################################################################
+MOD_STRUC 0
+INPUT_CHAR
+anz_int  11
+uu    -2.000000e+01
+uo    -9.100000e-01
+i0    2.527136e-01
+ g    3.104545e-01
+uu    -9.100000e-01
+uo    -8.300000e-01
+i0    1.647125e-01
+ g    2.137500e-01
+uu    -8.300000e-01
+uo    -7.900000e-01
+i0    1.055750e-01
+ g    1.425000e-01
+uu    -7.900000e-01
+uo    -7.500000e-01
+i0    6.410000e-02
+ g    9.000000e-02
+uu    -7.500000e-01
+uo    -7.200000e-01
+i0    3.410000e-02
+ g    5.000000e-02
+uu    -7.200000e-01
+uo    -7.000000e-01
+i0    2.330000e-02
+ g    3.500000e-02
+uu    -7.000000e-01
+uo    -6.700000e-01
+i0    1.280000e-02
+ g    2.000000e-02
+uu    -6.700000e-01
+uo    -6.200000e-01
+i0    6.100000e-03
+ g    1.000000e-02
+uu    -6.200000e-01
+uo    -6.100000e-01
+i0    -1.000000e-04
+ g    0.000000e+00
+uu    -6.100000e-01
+uo    -6.000000e-01
+i0    6.000000e-03
+ g    1.000000e-02
+uu    -6.000000e-01
+uo     2.000000e+01
+i0    0.000000e+00
+ g    0.000000e+00
+CAPACITY
+c0e   4.e-12
+k1e   0.0
+END
+@IDBM:ABT_040_S0_out.mac
+###############################################################################
+#
+#  Header     : 1.0;
+#  Filename   : ABT_040_S0_out.mac;
+#  FileRev    : 2.0;
+#  Date       : 02/03/1997;
+#  Permission : ;
+#  Simulator  : 2;
+#  Modeltype  : 0;
+#  Technology : ABT;
+#  Changes    : None;
+#  Notes      : generated for TI SN74ABT240 and comparable 3-state output
+#		drivers of technology ABT, VCC = 5V;
+#
+#  RefSource
+#     Component	    : SN74ABT240;
+#     Manufacturer  : TI;
+#     Buffername    : OUTBUF;
+#     Buffertype    : OUT;
+#     Pins	    : Outputs;
+#     Method	    : Measurement;
+#     Copyright	    : None;
+#     Disclaimer    : None;
+#     Notes	    : None;
+#
+#  RefCondition
+#     Process       : Typical;
+#     Temperature   : 25;
+#     SupplyVolt    : 5.000;
+#     RefVolt       : None;
+#     GndPackage    : Implicit;
+#     VccPackage    : Implicit;
+#     SigPackage    : Implicit;
+#     TermLineImp   : 57;
+#     TermLineDelay : 6.8e-09;
+#     TermVolt      : NotUsed;
+#     PullUpRes     : NotUsed;
+#     Notes         : None;
+#
+#  LinearModel
+#     VoltLow	    : 0.1;
+#     VoltHigh	    : 5.0;
+#     RiseTime	    : 1.4e-9;
+#     FallTime	    : 2.4e-9;
+#     ResLow	    : 2.4;
+#     ResHigh	    : 55.5;
+#     Capacitance   : 10e-12;
+#     Inductance    : None;
+#     GndClamp	    : None;
+#     PowClamp	    : None;
+#     Notes	    : Simulation results for a 50 Ohm transmission line load;
+#
+###############################################################################
+MOD_STRUC 0
+J0L_CHAR
+anz_int  10
+uu    -2.000000e+01
+uo    -1.950000e+00
+i0    -1.047153e+00
+ g    -2.777833e-02
+uu    -1.950000e+00
+uo    -1.740000e+00
+i0    -2.810805e-01
+ g    3.650795e-01
+uu    -1.740000e+00
+uo    -1.300000e+00
+i0    -1.473793e-01
+ g    4.419193e-01
+uu    -1.300000e+00
+uo    -1.010000e+00
+i0    -8.930740e-02
+ g    4.865900e-01
+uu    -1.010000e+00
+uo    -7.600000e-01
+i0    -6.005214e-02
+ g    5.155556e-01
+uu    -7.600000e-01
+uo    7.000000e-02
+i0    -3.880884e-02
+ g    5.435073e-01
+uu    7.000000e-02
+uo    1.400000e-01
+i0    -2.965223e-02
+ g    4.126985e-01
+uu    1.400000e-01
+uo    1.700000e-01
+i0    -2.985520e-03
+ g    2.222220e-01
+uu    1.700000e-01
+uo    4.200000e-01
+i0    2.874777e-02
+ g    3.555556e-02
+uu    4.200000e-01
+uo     2.000000e+01
+i0    4.368111e-02
+ g    0.000000e+00
+J0H_CHAR
+anz_int  9
+uu    -2.000000e+01
+uo    -7.600000e-01
+i0    -6.023304e-02
+ g    -8.034231e-02
+uu    -7.600000e-01
+uo    2.680000e+00
+i0    -1.881461e-03
+ g    -3.563921e-03
+uu    2.680000e+00
+uo    2.970000e+00
+i0    2.041607e-02
+ g    -1.188390e-02
+uu    2.970000e+00
+uo    3.150000e+00
+i0    8.300220e-02
+ g    -3.295667e-02
+uu    3.150000e+00
+uo    3.210000e+00
+i0    4.330024e-01
+ g    -1.440678e-01
+uu    3.210000e+00
+uo    3.310000e+00
+i0    2.157922e-01
+ g    -7.640110e-02
+uu    3.310000e+00
+uo    4.990000e+00
+i0    -1.118977e-01
+ g    2.259887e-02
+uu    4.990000e+00
+uo    5.000000e+00
+i0    -6.199774e-02
+ g    1.259887e-02
+uu    5.000000e+00
+uo     2.000000e+01
+i0    -1.119977e-01
+ g    2.259887e-02
+ENULL
+e0_low    7.137400e-02
+e0_high   4.955900e+00
+RNULL
+r0_low    1.800000e+00
+r0_high   4.425000e+01
+CAPACITY
+ca        1.000000e-11
+TIME_CONS
+OSCI_NO
+CONSTANT
+anz_t_const  1
+T1R  1.907783e-10
+T1F  1.442969e-09
+TIME_CHAR
+CONSTANT
+TAUVLH  1.341097e-09
+TAUPLH  1.000000e-12
+TAURLH  3.927333e-10
+TAUILH  1.163834e-10
+TAUVHL  1.581593e-09
+TAUPHL  1.000000e-12
+TAURHL  5.502876e-09
+TAUIHL  6.653376e-09
+END
+@IDBM:ABT_025_S0_tri.mac
+###############################################################################
+#
+#  Header     : 1.0;
+#  Filename   : ABT_025_S0_tri.mac;
+#  FileRev    : 2.0;
+#  Date       : 02/03/1997;
+#  Permission : ;
+#  Simulator  : 2;
+#  Modeltype  : 0;
+#  Technology : ABT;
+#  Changes    : None;
+#  Notes      : generated for TI SN74ABT240 and comparable 3-state buffers
+#		of technology ABT, VCC = 5V, GND clamping diodes;
+#
+#  RefSource
+#     Component     : SN74ABT240;
+#     Manufacturer  : TI;
+#     Buffername    : TRIBUF;
+#     Buffertype    : TRI->IN;
+#     Pins          : Outputs;
+#     Method        : Measurement;
+#     Copyright     : None;
+#     Disclaimer    : None;
+#     Notes         : GND Clamping Diodes;
+#
+#  RefCondition
+#     Process       : Typical;
+#     Temperature   : 25;
+#     SupplyVolt    : 5.000;
+#     RefVolt       : None;
+#     GndPackage    : Implicit;
+#     VccPackage    : Implicit;
+#     SigPackage    : Implicit;
+#     TermLineImp   : 50.000;
+#     TermLineDelay : 5.000e-09;
+#     Notes         : None;
+#
+#  
+#  LinearModel                  
+#     Resistance    : 1e6;
+#     Capacitance   : 8e-12;
+#     Inductance    : None;
+#     GndClamp      : None;
+#     PowClamp      : None;
+#     Notes         : None;
+#  
+###############################################################################
+MOD_STRUC 0
+INPUT_CHAR
+anz_int  11
+uu    -2.000000e+01
+uo    -9.100000e-01
+i0    2.527136e-01
+ g    3.104545e-01
+uu    -9.100000e-01
+uo    -8.300000e-01
+i0    1.647125e-01
+ g    2.137500e-01
+uu    -8.300000e-01
+uo    -7.900000e-01
+i0    1.055750e-01
+ g    1.425000e-01
+uu    -7.900000e-01
+uo    -7.500000e-01
+i0    6.410000e-02
+ g    9.000000e-02
+uu    -7.500000e-01
+uo    -7.200000e-01
+i0    3.410000e-02
+ g    5.000000e-02
+uu    -7.200000e-01
+uo    -7.000000e-01
+i0    2.330000e-02
+ g    3.500000e-02
+uu    -7.000000e-01
+uo    -6.700000e-01
+i0    1.280000e-02
+ g    2.000000e-02
+uu    -6.700000e-01
+uo    -6.200000e-01
+i0    6.100000e-03
+ g    1.000000e-02
+uu    -6.200000e-01
+uo    -6.100000e-01
+i0    -1.000000e-04
+ g    0.000000e+00
+uu    -6.100000e-01
+uo    -6.000000e-01
+i0    6.000000e-03
+ g    1.000000e-02
+uu    -6.000000e-01
+uo     2.000000e+01
+i0    0.000000e+00
+ g    0.000000e+00
+CAPACITY
+c0e   8.e-12
+k1e   0.0
+END

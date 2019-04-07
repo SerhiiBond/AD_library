@@ -1,0 +1,125 @@
+****************************************
+*  For samples, data sheets, pricing, 
+*  sales and technical support,
+*  please contact us at:
+*
+*  Linear Integrated Systems    
+*  4042 Clipper Court
+*  Fremont, CA 94538 USA
+*  phone: 510-490-9160 
+*  fax: 510-353-0261
+*  email: sales@linearsystems.com
+*  web: www.linearsystems.com
+*
+*  Revision B
+*  Released on March 27, 2003
+*  Craig Greenlaw
+*  Linear Integrated Systems
+*
+*  Revision A
+*  released on 01/17/2003
+*  by Gregorio La Rosa
+*  Silvaco International
+*  4701 Patrick Henry Dr.
+*  Santa Clara, CA 95054   USA
+*  phone: +1 408-654-4337
+*  e-mail: gregorio.larosa@silvaco.com
+*  web site:  www.silvaco.com
+****************************************
+*  PSPICE Version 9.2 JFET model library
+*  All models are single devices.
+*  
+*  Device characteristics and models are
+*  subject to change without notice.
+*  
+*  The models contained within are the
+*  property of Linear Integrated Systems.
+*  March 27, 2003
+****************************************
+*$
+* LINEAR INTEGRATED SYSTEMS
+*
+* Modeled Device: LS843 Vp=1.2V 
+* Device Geometry: JF201
+* Released: March 27, 2003
+*
+* DATE: Jan 15/03
+* LOT: JF201                 WAF: -
+* DIE: 1                     DEV: JF201_1                                       
+* Temp= 27                                                                      
+* W=    1.0 L=    1.0
+* 
+.MODEL JF201_1 NJF (
++ BETA   = 2.381513E-3
++ VTO    = -0.9901181
++ LAMBDA = 4.131294E-3
++ IS     = 1.191834E-14
++ RD     = 12.7185108
++ RS     = 14.1167733
++ CGD    = 1E-12
++ CGS    = 1E-12
++ PB     = 0.8
++ FC     = 0.5
+*+ M      = 0.5
+*+ KF     = 0
+*+ AF     = 1
+*+ XTI    = 0
+)
+*$
+* LINEAR INTEGRATED SYSTEMS
+*
+* Modeled Device: LS843 Vp=2.5V
+* Device Geometry: JF201
+* Released: March 27, 2003
+*
+* DATE: Jan 15/03                                                               
+* LOT: JF201                 WAF: -                                             
+* DIE: 3                     DEV: JF201_3                                       
+* Temp= 27                                                                      
+* W=    1.0 L=    1.0
+*
+.MODEL JF201_3 NJF (
++ BETA   = 1.605032E-3
++ VTO    = -2.3415746
++ LAMBDA = 7.151837E-3
++ IS     = 1.647462E-15
++ RD     = 10.8743787
++ RS     = 12.5231483
++ CGD    = 1E-12
++ CGS    = 1E-12
++ PB     = 0.8
++ FC     = 0.5
+*+ M      = 0.5
+*+ KF     = 0
+*+ AF     = 1
+*+ XTI    = 0
+)
+*$
+* LINEAR INTEGRATED SYSTEMS
+*
+* Modeled Device: LS843 Vp=3.4V
+* Device Geometry: JF201
+* Released: March 27, 2003
+*
+* DATE: Jan 15/03                                                               
+* LOT: JF201                 WAF: -                                             
+* DIE: 5                     DEV: JF201_5                                       
+* Temp= 27                                                                      
+* W=    1.0 L=    1.0
+*
+.MODEL JF201_5 NJF
++ VTO    = -3.2465415
++ BETA   = 0.001469459
++ LAMBDA = 0.009118295
++ RD     = 10.5
++ RS     = 12.4
++ IS     = 1.773497E-15
++ CGD    = 1E-12
++ CGS    = 1E-12
++ PB     = 0.8
++ FC     = 0.5
+*+ M      = 0.5
+*+ KF     = 0
+*+ AF     = 1
+*+ XTI    = 0
+*$
