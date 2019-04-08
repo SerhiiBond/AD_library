@@ -1,0 +1,13 @@
+﻿"Symbol";"Value";"Unit";
+"TraceParts.PartNumber";"10-18112016-083955";"";
+"REFERENCE";"MF-FSMF035X-2";"";
+"TraceParts.PartTitle";"0603 PTC Resettable Fuses, 6V, 350mA";"";
+"TraceParts.InstanceId";"10-18112016-083955CDCHVJHP9ET432GJV5FTH4IEU";"";
+"DESIGN";"0603 PTC Resettable Fuses, 6V, 350mA";"";
+"TraceParts.PartStatus";"Published";"";
+"TraceParts.PartStatusId";"";"";
+"SUPPLIER";"BOURNS";"";
+"TraceParts.PartVersion";"1.0.0";"";
+"TRACEPARTS";"TRACEPARTS";"";
+"TraceParts.PartLanguage";"en";"";
+"TraceParts.ClassPath";"BOURNS:/F_BOURNS/10-18112016-083955";"";

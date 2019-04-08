@@ -1,0 +1,15 @@
+Component   : 35363-0560
+PCB Library : mainLib.PcbLib
+Date        : 27.02.2017
+Time        : 18:23:46
+
+
+
+Dimension : 12.624 x 10.795 mm
+
+ Layer(s)              Pads(s)  Tracks(s)  Fill(s)  Arc(s)  Text(s)
+--------------------------------------------------------------------
+ Multi Layer                 5          0        0       0        0
+ Top Overlay                 0         11        0       0        0
+--------------------------------------------------------------------
+ Total                       5         11        0       0        0
