@@ -1,15 +1,14 @@
-Component   : 35363-0560
+Component   : TSOP16
 PCB Library : mainLib.PcbLib
-Date        : 27.02.2017
-Time        : 18:23:46
+Date        : 30.03.2020
+Time        : 9:49:42
 
 
 
-Dimension : 12.624 x 10.795 mm
+Dimension : 7.874 x 6.121 mm
 
  Layer(s)              Pads(s)  Tracks(s)  Fill(s)  Arc(s)  Text(s)
 --------------------------------------------------------------------
- Multi Layer                 5          0        0       0        0
- Top Overlay                 0         11        0       0        0
+ Top Overlay                 0          4        0       2        0
 --------------------------------------------------------------------
- Total                       5         11        0       0        0
+ Total                       0          4        0       2        0
